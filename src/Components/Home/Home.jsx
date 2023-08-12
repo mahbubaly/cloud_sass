@@ -168,7 +168,7 @@ const Home = () => {
                     <div className='mt-[50px] grid grid-cols-1 items-center lg:mb-[189px] lg:grid-cols-2 gap-[61px] lg:pr-[150px]'>
 
                         <div>
-                            <img src={img02} className='w-[728.937px] lg:-pl-[20px]' alt="" />
+                            <img src={img02} className='lg:w-[866.064px] lg:-ml-[100px] 2xl:-ml-[130px]' alt="" />
                             
                         </div>
                         <div>
