@@ -525,7 +525,7 @@ const Home = () => {
 
                 <footer className='bg_Footer lg:h-[817.32px] 2xl:h-[1100px] '>
 
-                    <div className='flex justify-center pt-[286.82px]'>
+                    <div className='flex mx-auto justify-center pt-[286.82px]'>
                         <div className='text-center'>
                             <h1 className='text-white '><SectionTitle tittle={'Get Our Latest Newsletters'} /> </h1>
                             <p className='text-white font-normal Normal text-lg mt-[15px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -579,7 +579,7 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <div className='text-white mt-[89px] text-center text-[16px] font-normal Normal mb-[40px]'>
+                    <div className='text-white mt-[89px] text-center 2xl:mr-40 lg:mr-24 text-[16px] font-normal Normal mb-[40px]'>
                         <p>© Copyright © 2020 Design by Xpeed Page</p>
                     </div>
 
