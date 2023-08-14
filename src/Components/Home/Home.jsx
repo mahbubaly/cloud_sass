@@ -523,7 +523,7 @@ const Home = () => {
 
 
 
-                <footer className='bg_Footer lg:h-[817.32px] '>
+                <footer className='bg_Footer lg:h-[817.32px] 2xl:h-[1100px] '>
 
                     <div className='flex justify-center pt-[286.82px]'>
                         <div className='text-center'>
