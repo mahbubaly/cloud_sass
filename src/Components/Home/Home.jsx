@@ -90,7 +90,7 @@ const Home = () => {
                     </div>
 
 
-                    <div className='px-[150px] lg:mt-[50px]'>
+                    <div className='mx-[150px] lg:mt-[50px]'>
 
                         <div className='grid lg:grid-cols-4 grid-cols-1 lg:gap-4'>
                             <div>
@@ -187,10 +187,10 @@ const Home = () => {
                     <div className='mt-[50px] grid grid-cols-1 items-center lg:mb-[189px] lg:grid-cols-2 gap-[61px] lg:pr-[150px]'>
 
                         <div>
-                            <img src={img02} className='lg:w-[866.064px] lg:-ml-[100px] 2xl:-ml-[130px]' alt="" />
+                            <img src={img02} className='lg:w-[676px] lg:-ml-[60px] 2xl:-ml-[50px]' alt="" />
 
                         </div>
-                        <div>
+                        <div className='2xl:w-auto lg:w-[498px]'>
 
                             <div className='flex gap-[25px] items-start'>
                                 <h1 className='lg:text-[40px] font-semibold text-[#272223] SansPro -mt-2'>01</h1>
@@ -224,7 +224,7 @@ const Home = () => {
                 {/* How We Help Our Clients Measure Social */}
 
                 <section>
-                    <div className='grid grid-cols-1 lg:grid-cols-2 gap-[50px]'>
+                    <div className='grid grid-cols-1 lg:grid-cols-2 gap-[20px]'>
                         <div className='lg:pl-[150px]'>
                             <SectionTitle tittle={"How We Help Our Clients Measure Social"} />
 
@@ -246,7 +246,7 @@ const Home = () => {
                         </div>
 
                         <div>
-                            <img src={animationBG} className='lg:pr-[30px]' alt="" />
+                            <img src={animationBG} className='lg:pr-[30px] lg:w-[676px] 2xl:w-auto' alt="" />
                         </div>
                     </div>
 
@@ -262,13 +262,13 @@ const Home = () => {
                     <div className='lg:px-[30px] lg:mt-[184px] grid lg:grid-cols-2 grid-cols-1 gap-[50px]'>
 
                         <div>
-                            <img src={Nst04} className='lg:w-[ 646.025px]' alt="" />
+                            <img src={Nst04} className='lg:w-[646.025px]' alt="" />
 
                         </div>
                         <div className='lg:pr-[150px]'>
                             <SectionTitle tittle={'Making A New Trend In Poster Printing'} />
 
-                            <p className='text-lg mt-[25px] text-[#413F42] font-normal Normal'>
+                            <p className='text-lg text-justify mt-[25px] text-[#413F42] font-normal Normal'>
                                 Chances are unless you are very lucky you will go thru many different relationships before you find your special someone. Finding your sole mate is like gambling. <br /> <br />
 
                                 During your life you will probably meet some people who seem like they may be the one, or that they are close, but still have the feeling that something else is missing. My advice is that if you are not happy, because something seems like it is missing, then it usually is not right the bus one day without ever knowing it.</p>
@@ -511,7 +511,7 @@ const Home = () => {
                         <SectionTitle tittle={'Awarded & Trusted By'} />
                     </div>
 
-                    <div className='mx-[150px] mb-[150px]  lg:flex gap-[69px] 2xl:justify-center mt-[50px]'>
+                    <div className='px-[150px] mb-[150px]  lg:flex gap-[69px] 2xl:justify-center mt-[50px]'>
                         <img src={codeLab} className='w-[171px]' alt="" />
                         <img src={niraState} className='w-[223px]' alt="" />
                         <img src={live} className='w-[113px]' alt="" />
