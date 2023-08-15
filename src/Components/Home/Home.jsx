@@ -33,7 +33,7 @@ const Home = () => {
 
             <Container>
                 <header className='bg_Banner xl:h-[959.412px]  2xl:h-[1200px]'>
-                    <nav className='px-[150px] pt-[35px] flex justify-between items-center'>
+                    <nav className='px-[150px]  pt-[35px] flex justify-between items-center'>
 
                         <div>
                             <h1 className='Bold font-bold lg:text-[30px] text-[#FFF]'>Xpeed Cloud</h1>
@@ -187,7 +187,7 @@ const Home = () => {
                     <div className='mt-[50px] grid grid-cols-1 items-center lg:mb-[189px] lg:grid-cols-2 gap-[61px] lg:pr-[150px]'>
 
                         <div>
-                            <img src={img02} className='lg:w-[676px] 2xl:w-auto lg:-ml-[100px] 2xl:-ml-[150px]' alt="" />
+                            <img src={img02} className='lg:w-[676px] 2xl:w-auto ' alt="" />
 
                         </div>
                         <div className='2xl:w-auto lg:w-[498px]'>
@@ -262,7 +262,7 @@ const Home = () => {
                     <div className='lg:px-[30px] lg:mt-[184px] grid lg:grid-cols-2 grid-cols-1 gap-[50px]'>
 
                         <div>
-                            <img src={Nst04} className='lg:w-[646.025px]' alt="" />
+                            <img src={Nst04} className='lg:w-[646.025px] 2xl:w-auto' alt="" />
 
                         </div>
                         <div className='lg:pr-[150px]'>
