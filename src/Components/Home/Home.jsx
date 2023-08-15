@@ -32,8 +32,8 @@ const Home = () => {
         <>
 
             <Container>
-                <header className='bg_Banner xl:h-[959.412px]  2xl:h-[1200px]'>
-                    <nav className='px-[150px]  pt-[35px] flex justify-between items-center'>
+                <header className='bg_Banner    xl:h-[959.412px]  2xl:h-[1200px]'>
+                    <nav className='px-[150px]   mx-auto pt-[35px] flex justify-between items-center'>
 
                         <div>
                             <h1 className='Bold font-bold lg:text-[30px] text-[#FFF]'>Xpeed Cloud</h1>
