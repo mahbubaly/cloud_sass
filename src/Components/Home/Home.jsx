@@ -90,7 +90,7 @@ const Home = () => {
                     </div>
 
 
-                    <div className='mx-[150px] lg:mt-[50px]'>
+                    <div className='px-[150px] lg:pt-[50px]'>
 
                         <div className='grid lg:grid-cols-4 grid-cols-1 lg:gap-4'>
                             <div>
@@ -103,7 +103,7 @@ const Home = () => {
                                     </div>
                                     <div className="text-center">
                                         <h2 className="text-[#27162E] text-[20px] Medium px-[44px] mt-[30px]">Automated Backup</h2>
-                                        <p className='text-lg font-normal Normal mx-5 pb-[50px] mt-4'>About 64% of all on-line teens say that do things online that they.</p>
+                                        <p className='text-lg font-normal Normal px-5 pb-[50px] mt-4'>About 64% of all on-line teens say that do things online that they.</p>
 
                                     </div>
                                 </div>
@@ -121,7 +121,7 @@ const Home = () => {
                                     </div>
                                     <div className="text-center">
                                         <h2 className="text-[#27162E] text-[20px] Medium px-[44px] mt-[30px]">Cloud Storage</h2>
-                                        <p className='text-lg font-normal Normal mx-5 pb-[50px] mt-4'>About 64% of all on-line teens say that do things online that they.</p>
+                                        <p className='text-lg font-normal Normal px-5 pb-[50px] mt-4'>About 64% of all on-line teens say that do things online that they.</p>
 
                                     </div>
                                 </div>
@@ -139,7 +139,7 @@ const Home = () => {
                                     </div>
                                     <div className="text-center">
                                         <h2 className="text-[#27162E] text-[20px] Medium px-[44px] mt-[30px]">Finance Assistant</h2>
-                                        <p className='text-lg font-normal Normal mx-5 pb-[50px] mt-4'>About 64% of all on-line teens say that do things online that they.</p>
+                                        <p className='text-lg font-normal Normal px-5 pb-[50px] mt-4'>About 64% of all on-line teens say that do things online that they.</p>
 
                                     </div>
                                 </div>
@@ -157,7 +157,7 @@ const Home = () => {
                                     </div>
                                     <div className="text-center">
                                         <h2 className="text-[#27162E] text-[20px] Medium px-[44px] mt-[30px]">Easy Payment</h2>
-                                        <p className='text-lg font-normal Normal mx-5 pb-[50px] mt-4'>About 64% of all on-line teens say that do things online that they.</p>
+                                        <p className='text-lg font-normal Normal px-5 pb-[50px] mt-4'>About 64% of all on-line teens say that do things online that they.</p>
 
                                     </div>
                                 </div>
@@ -187,7 +187,7 @@ const Home = () => {
                     <div className='mt-[50px] grid grid-cols-1 items-center lg:mb-[189px] lg:grid-cols-2 gap-[61px] lg:pr-[150px]'>
 
                         <div>
-                            <img src={img02} className='lg:w-[676px] lg:-ml-[60px] 2xl:-ml-[50px]' alt="" />
+                            <img src={img02} className='lg:w-[676px] 2xl:w-auto lg:-ml-[100px] 2xl:-ml-[150px]' alt="" />
 
                         </div>
                         <div className='2xl:w-auto lg:w-[498px]'>
@@ -321,7 +321,7 @@ const Home = () => {
 
                             </div>
 
-                            <div className='ml-[40px] mr-[19px] mt-[33px] mb-[50px] flex lg:gap-[15px] 2xl:gap-[30px]'>
+                            <div className='pl-[40px] pr-[19px] pt-[33px] pb-[50px] flex lg:gap-[15px] 2xl:gap-[30px]'>
                                 <img src={oval} className='w-[50px] h-[50px]' alt="" />
                                 <div>
                                     <h1 className='text-lg font-semibold SemiBold'>
@@ -336,14 +336,14 @@ const Home = () => {
 
                         {/* 2 */}
                         <div className="card lg:mt-[50px] lg:w-[310px]  2xl:w-auto  bg-base-100 Box_shadow">
-                            <div className='mt-[50px]  ml-[30px]'>
+                            <div className='pt-[50px]  pl-[30px]'>
                                 <img src={quote} className='w-[46px] h-[36px] top-[50px] absolute  ' alt="BackUp" />
 
 
                             </div>
                             <div className="relative">
 
-                                <p className='ml-[40px] mr-[30px] text-lg font-normal Normal   mt-4 text-justify'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more..</p>
+                                <p className='pl-[40px] mr-[30px] text-lg font-normal Normal   mt-4 text-justify'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more..</p>
 
                             </div>
 
@@ -356,7 +356,7 @@ const Home = () => {
 
                             </div>
 
-                            <div className='ml-[40px] mr-[19px] mt-[33px] mb-[50px] flex lg:gap-[15px] 2xl:gap-[30px]'>
+                            <div className='pl-[40px] pr-[19px] pt-[33px] pb-[50px] flex lg:gap-[15px] 2xl:gap-[30px]'>
                                 <img src={oval2} className='w-[50px] h-[50px]' alt="" />
                                 <div>
                                     <h1 className='text-lg font-semibold SemiBold'>
@@ -369,7 +369,7 @@ const Home = () => {
 
                         {/* 3 */}
                         <div className="card lg:w-[310px] 2xl:w-auto  bg-base-100 Box_shadow">
-                            <div className='mt-[50px]  ml-[30px]'>
+                            <div className='mt-[50px]  pl-[30px]'>
                                 <img src={quote} className='w-[46px] h-[36px] top-[50px] absolute  ' alt="BackUp" />
 
 
@@ -389,7 +389,7 @@ const Home = () => {
 
                             </div>
 
-                            <div className='ml-[40px] mr-[19px] mt-[33px] mb-[50px] flex lg:gap-[15px] 2xl:gap-[30px]'>
+                            <div className='pl-[40px] pr-[19px] pt-[33px] pb-[50px] flex lg:gap-[15px] 2xl:gap-[30px]'>
                                 <img src={oval3} className='w-[50px] h-[50px]' alt="" />
                                 <div>
                                     <h1 className='text-lg font-semibold SemiBold'>
@@ -400,7 +400,7 @@ const Home = () => {
                             </div>
                         </div>
 
-                        {/* 4 */}
+                    
 
                     </div>
 
