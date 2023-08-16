@@ -40,10 +40,10 @@ const Home = () => {
 
                         </div>
                         <div className='flex gap-[30px]'>
-                            <h1 className='Normal font-normal text-white text-[16px]'>Solution</h1>
-                            <h1 className='Normal font-normal text-white text-[16px]'>Why choose us</h1>
-                            <h1 className='Normal font-normal text-white text-[16px]'>Features</h1>
-                            <h1 className='Normal font-normal text-white text-[16px]'>Pricing</h1>
+                            <h1 className='Normal font-normal text-white hover:text-slate-300 text-[16px]'>Solution</h1>
+                            <h1 className='Normal font-normal text-white hover:text-slate-300 text-[16px]'>Why choose us</h1>
+                            <h1 className='Normal font-normal text-white hover:text-slate-300 text-[16px]'>Features</h1>
+                            <h1 className='Normal font-normal text-white hover:text-slate-300 text-[16px]'>Pricing</h1>
 
                         </div>
 
@@ -58,11 +58,11 @@ const Home = () => {
                                 Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard.
                             </p>
 
-                            <div className='flex justify-center gap-[25px] mt-[35px]'>
-                                <button className='lg:w-[195px] rounded-[8px] Gradient py-5 text-[#fff] text-[16px] Bold'>
+                            <div className='flex justify-center items-center gap-[25px] mt-[35px]'>
+                                <button className='lg:w-[195px] ho border-[1px]  ChosePlan Gradient py-5 text-[#fff] text-[16px] Bold'>
                                     Get Started
                                 </button>
-                                <button className='lg:w-[200px] border-2 border-white rounded-[8px]  py-5 text-[#fff] text-[16px] Bold'>
+                                <button className='lg:w-[200px] hover:bg-gradient-to-r from-[#25DEEE] to-[#38A6E0] hover:border-none border-[1px] border-white rounded-[8px]  py-5 text-[#fff] text-[16px] Bold'>
                                     Watch Trailer
                                 </button>
                             </div>
@@ -75,9 +75,9 @@ const Home = () => {
 
                 </header>
 
+                {/* Our Solution */}
 
                 <section>
-                    {/* Our Solution */}
 
                     <div className='mx-auto lg:w-[563px] text-center'>
                         <h1 className='text-[#321C3C] lg:text-[48px] Normal'>Our Solution</h1>
@@ -95,7 +95,7 @@ const Home = () => {
                         <div className='grid lg:grid-cols-4 grid-cols-1 lg:gap-4'>
                             <div>
 
-                                <div className="card lg:w-[273px] 2xl:w-auto  bg-base-100 Box_shadow">
+                                <div className="card lg:w-[273px] 2xl:w-auto hover:shadow-lg hover:shadow-slate-300  bg-base-100 Box_shadow">
                                     <div className='pt-[50px] px-[86px]'>
                                         <img src={BackUp} className='w-[100px] h-[100px] mx-auto  ' alt="BackUp" />
 
@@ -113,7 +113,7 @@ const Home = () => {
                             {/* 2 */}
                             <div>
 
-                                <div className="card lg:w-[273px] 2xl:w-auto  bg-base-100 Box_shadow">
+                                <div className="card hover:shadow-lg hover:shadow-slate-300 lg:w-[273px] 2xl:w-auto  bg-base-100 Box_shadow">
                                     <div className='pt-[50px] px-[86px]'>
                                         <img src={cloud} className='w-[100px] h-[100px]  mx-auto' alt="BackUp" />
 
@@ -131,7 +131,7 @@ const Home = () => {
                             {/* 3 */}
                             <div>
 
-                                <div className="card lg:w-[273px] 2xl:w-auto  bg-base-100 Box_shadow">
+                                <div className="card hover:shadow-lg hover:shadow-slate-300 lg:w-[273px] 2xl:w-auto  bg-base-100 Box_shadow">
                                     <div className='pt-[50px] px-[86px]'>
                                         <img src={finance} className='w-[100px] h-[100px] mx-auto  ' alt="BackUp" />
 
@@ -149,7 +149,7 @@ const Home = () => {
                             {/* 4 */}
                             <div>
 
-                                <div className="card lg:w-[273px] 2xl:w-auto  bg-base-100 Box_shadow">
+                                <div className="card hover:shadow-lg hover:shadow-slate-300 lg:w-[273px] 2xl:w-auto  bg-base-100 Box_shadow">
                                     <div className='pt-[50px] px-[86px]'>
                                         <img src={EasyPay} className='w-[100px] h-[100px] mx-auto ' alt="BackUp" />
 
@@ -268,7 +268,7 @@ const Home = () => {
                         <div className='lg:pr-[150px]'>
                             <SectionTitle tittle={'Making A New Trend In Poster Printing'} />
 
-                            <p className='text-lg text-justify mt-[25px] text-[#413F42] font-normal Normal'>
+                            <p className='text-lg  mt-[25px] text-[#413F42] font-normal Normal'>
                                 Chances are unless you are very lucky you will go thru many different relationships before you find your special someone. Finding your sole mate is like gambling. <br /> <br />
 
                                 During your life you will probably meet some people who seem like they may be the one, or that they are close, but still have the feeling that something else is missing. My advice is that if you are not happy, because something seems like it is missing, then it usually is not right the bus one day without ever knowing it.</p>
@@ -297,10 +297,10 @@ const Home = () => {
 
 
 
-                    <div className='px-[205px] lg:mt-[50px] grid lg:grid-cols-3 grid-cols-1 lg:gap-[50px]'>
+                    <div className='px-[205px] lg:mt-[50px] justify-center items-center grid lg:grid-cols-3 grid-cols-1 lg:gap-[50px]'>
 
 
-                        <div className="card lg:w-[310px] 2xl:w-auto  bg-base-100 Box_shadow">
+                        <div className="card lg:w-[310px] 2xl:w-auto  bg-base-100 Box_shadow hover:shadow-xl hover:shadow-slate-300">
                             <div className='mt-[50px]  ml-[30px]'>
                                 <img src={quote} className='w-[46px] h-[36px] top-[50px] absolute  ' alt="BackUp" />
 
@@ -308,7 +308,7 @@ const Home = () => {
                             </div>
                             <div className="relative">
 
-                                <p className='ml-[40px] mr-[30px] text-lg font-normal Normal   mt-4 text-justify'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more..</p>
+                                <p className='ml-[40px] mr-[30px] text-lg font-normal Normal   mt-4 '>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more..</p>
 
                             </div>
 
@@ -335,7 +335,8 @@ const Home = () => {
 
 
                         {/* 2 */}
-                        <div className="card lg:mt-[50px] lg:w-[310px]  2xl:w-auto  bg-base-100 Box_shadow">
+
+                        <div className="card lg:mt-[50px] lg:w-[310px]  2xl:w-auto  bg-base-100 Box_shadow hover:shadow-xl hover:shadow-slate-300">
                             <div className='pt-[50px]  pl-[30px]'>
                                 <img src={quote} className='w-[46px] h-[36px] top-[50px] absolute  ' alt="BackUp" />
 
@@ -343,7 +344,7 @@ const Home = () => {
                             </div>
                             <div className="relative">
 
-                                <p className='pl-[40px] mr-[30px] text-lg font-normal Normal   mt-4 text-justify'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more..</p>
+                                <p className='pl-[40px] mr-[30px] text-lg font-normal Normal   mt-4 '>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more..</p>
 
                             </div>
 
@@ -368,7 +369,7 @@ const Home = () => {
                         </div>
 
                         {/* 3 */}
-                        <div className="card lg:w-[310px] 2xl:w-auto  bg-base-100 Box_shadow">
+                        <div className="card lg:w-[310px] 2xl:w-auto  bg-base-100 Box_shadow hover:shadow-xl hover:shadow-slate-300">
                             <div className='mt-[50px]  pl-[30px]'>
                                 <img src={quote} className='w-[46px] h-[36px] top-[50px] absolute  ' alt="BackUp" />
 
@@ -376,7 +377,7 @@ const Home = () => {
                             </div>
                             <div className="relative">
 
-                                <p className='ml-[40px] mr-[30px] text-lg font-normal Normal   mt-4 text-justify'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more..</p>
+                                <p className='ml-[40px] mr-[30px] text-lg font-normal Normal   mt-4 '>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more..</p>
 
                             </div>
 
@@ -400,7 +401,7 @@ const Home = () => {
                             </div>
                         </div>
 
-                    
+
 
                     </div>
 
@@ -420,13 +421,16 @@ const Home = () => {
 
                         <div className='grid lg:mx-[225px] lg:mt-[50px] grid-cols-1 gap-[30px] lg:grid-cols-3'>
                             {/* 1 */}
-                            <div className="card lg:w-[310px]  rounded-[25px] 2xl:w-auto  bg-base-100 Box_shadow text-center">
-                                <h2 className='text-[#272223] text-[20px] uppercase mt-[30px] font-medium Medium'>Basic</h2>
-                                <h1 className='text-[#272223] lg:text-[50px] uppercase mt-[23px] font-medium Medium'>$65.99</h1>
-                                <p className='text-[#272223] text-[16px] uppercase mt-[24px] pb-[31px] borderBottom mb-14 font-bold Bold'>Yearly</p>
+                            <div className="card lg:w-[310px]  rounded-[25px] 2xl:w-auto  bg-base-100 Box_shadow text-center bg_stander text-[#272223] ">
+                                <h2 className=' text-[20px] uppercase mt-[30px] font-medium Medium'>Basic</h2>
+                                <h1 className=' lg:text-[50px] uppercase mt-[23px] font-medium Medium'>$65.99</h1>
+                                <p className=' text-[16px] uppercase mt-[24px] pb-[31px] font-bold Bold'>Yearly</p>
 
-                                <div className='space-y-[17px] pb-[31px] borderBottom text-[#272223] font-normal Normal text-lg'>
-                                    <h2 className='text-lg text-[#272223] font-medium Medium'>Perfect for Individual</h2>
+                                <hr className='borderBottom mb-[31px]' />
+
+
+                                <div className='space-y-[17px] pb-[31px]   font-normal Normal text-lg'>
+                                    <h2 className='text-lg  font-medium Medium'>Perfect for Individual</h2>
                                     <p>50 GB Cloud Storage</p>
                                     <p>
                                         Automated Server Backup
@@ -435,6 +439,9 @@ const Home = () => {
                                     <p>Customer Management</p>
 
                                 </div>
+
+                                <hr className='borderBottom mb-[31px]' />
+
 
                                 <div className='mt-[30px] w-full lg:w-[180px] mx-auto py-4 px-[44px] ChosePlan'>
                                     <button className='text-[14px] text-white font-bold Bold'>Choose Plan</button>
@@ -448,12 +455,54 @@ const Home = () => {
                             </div>
 
                             {/* 2 */}
-                            <div className="card lg:w-[310px] bg_stander text-[#FFF] rounded-[25px] 2xl:w-auto  bg-base-100 Box_shadow text-center">
+
+
+
+
+                            <div className="card lg:w-[310px] bg_stander text-[#272223]  rounded-[25px] 2xl:w-auto  bg-base-100 Box_shadow text-center">
                                 <h2 className=' text-[20px] uppercase mt-[30px] font-medium Medium'>Standard</h2>
                                 <h1 className=' lg:text-[50px] uppercase mt-[23px] font-medium Medium'>$65.99</h1>
-                                <p className=' text-[16px] uppercase mt-[24px] pb-[31px] borderBottom mb-14 font-bold Bold'>Yearly</p>
+                                <p className=' text-[16px] uppercase mt-[24px] pb-[31px] font-bold Bold'>Yearly</p>
 
-                                <div className='space-y-[17px] pb-[31px] borderBottom  font-normal Normal text-lg'>
+                                <hr className='borderBottom mb-[31px]' />
+
+
+                                <div className='space-y-[17px] pb-[31px]   font-normal Normal text-lg'>
+                                    <h2 className='text-lg font-medium Medium'>Perfect for Individual</h2>
+                                    <p>50 GB Cloud Storage</p>
+                                    <p>
+                                        Automated Server Backup
+                                    </p>
+                                    <p>24/7 Support</p>
+                                    <p>Customer Management</p>
+
+                                </div>
+
+                                <hr className='borderBottom mb-[31px]' />
+
+
+                                <div className='mt-[30px] w-full lg:w-[180px] mx-auto py-4 px-[44px] ChosePlan'>
+                                    <button className='text-[14px] text-white font-bold Bold'>Choose Plan</button>
+
+                                </div>
+                                <h1 className='text-[14px] font-medium Medium text-[#783FBE] underline text-center mt-[21px] mb-[30px]'>Get Your 30 Day Free Trail</h1>
+
+
+
+
+                            </div>
+
+                            {/* 3 */}
+
+                            <div className="card lg:w-[310px] bg_stander  text-[#272223]  rounded-[25px] 2xl:w-auto   bg-base-100 Box_shadow text-center">
+                                <h2 className=' text-[20px] uppercase mt-[30px] font-medium Medium'>Premium</h2>
+                                <h1 className=' lg:text-[50px] uppercase mt-[23px] font-medium Medium'>$65.99</h1>
+                                <p className=' text-[16px] uppercase mt-[24px] pb-[31px] font-bold Bold'>Yearly</p>
+
+                                <hr className='borderBottom mb-[31px] bg-white' />
+
+
+                                <div className='space-y-[17px] pb-[31px]   font-normal Normal text-lg'>
                                     <h2 className='text-lg  font-medium Medium'>Perfect for Individual</h2>
                                     <p>50 GB Cloud Storage</p>
                                     <p>
@@ -464,37 +513,16 @@ const Home = () => {
 
                                 </div>
 
-                                <div className='mt-[30px] w-full lg:w-[180px] mx-auto py-4 px-[44px] ChosePlan'>
-                                    <button className='text-[14px] text-white font-bold Bold'>Choose Plan</button>
-
-                                </div>
-                                <h1 className='text-[14px] font-medium Medium  underline text-center mt-[21px] mb-[30px]'>Get Your 30 Day Free Trail</h1>
+                                <hr className='borderBottom mb-[31px]' />
 
 
 
-
-                            </div>
-                            <div className="card lg:w-[310px]   rounded-[25px] 2xl:w-auto   bg-base-100 Box_shadow text-center">
-                                <h2 className='text-[#272223] text-[20px] uppercase mt-[30px] font-medium Medium'>Premium</h2>
-                                <h1 className='text-[#272223] lg:text-[50px] uppercase mt-[23px] font-medium Medium'>$65.99</h1>
-                                <p className='text-[#272223] text-[16px] uppercase mt-[24px] pb-[31px] borderBottom mb-14 font-bold Bold'>Yearly</p>
-
-                                <div className='space-y-[17px] pb-[31px] borderBottom text-[#272223] font-normal Normal text-lg'>
-                                    <h2 className='text-lg text-[#272223] font-medium Medium'>Perfect for Individual</h2>
-                                    <p>50 GB Cloud Storage</p>
-                                    <p>
-                                        Automated Server Backup
-                                    </p>
-                                    <p>24/7 Support</p>
-                                    <p>Customer Management</p>
-
-                                </div>
 
                                 <div className='mt-[30px] w-full lg:w-[180px] mx-auto py-4 px-[44px] ChosePlan'>
                                     <button className='text-[14px] text-white font-bold Bold'>Choose Plan</button>
 
                                 </div>
-                                <h1 className='text-[14px] font-medium Medium text-[#783FBE] underline text-center mt-[21px] mb-[30px]'>Get Your 30 Day Free Trail</h1>
+                                <h1 className='text-[14px] font-medium Medium  text-[#783FBE] hover:text-white underline text-center mt-[21px] mb-[30px]'>Get Your 30 Day Free Trail</h1>
 
 
 
@@ -532,7 +560,7 @@ const Home = () => {
 
                             <div className='flex justify-center items-center mt-[37px] gap-[15px]'>
                                 <div className=''>
-                                    <input type="text" className='lg:w-[450px] rounded-[8px]  px-5 py-5' placeholder='Type your email' />
+                                    <input type="text" className='lg:w-[450px]   rounded-[8px]  px-5 py-5' placeholder='Type your email' />
 
                                 </div>
 
@@ -579,7 +607,11 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <div className='text-white mt-[89px] text-center 2xl:mr-40 lg:mr-24 text-[16px] font-normal Normal mb-[40px]'>
+                    <div className='px-[150px] mx-auto lg:w-[1440px]'>
+                        <hr className='mt-[53px] mb-[31px]  borderFooter' />
+
+                    </div>
+                    <div className='text-white text-center 2xl:mr-40 lg:mr-24 text-[16px] font-normal Normal mb-[40px]'>
                         <p>© Copyright © 2020 Design by Xpeed Page</p>
                     </div>
 
