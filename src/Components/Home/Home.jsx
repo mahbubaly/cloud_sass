@@ -447,7 +447,7 @@ const Home = () => {
                                     <button className='text-[14px] text-white font-bold Bold'>Choose Plan</button>
 
                                 </div>
-                                <h1 className='text-[14px] font-medium Medium text-[#783FBE] underline text-center mt-[21px] mb-[30px]'>Get Your 30 Day Free Trail</h1>
+                                <h1 className='text-[14px] font-medium Medium text-[#783FBE] underline text-center hover:text-white mt-[21px] mb-[30px]'>Get Your 30 Day Free Trail</h1>
 
 
 
@@ -485,7 +485,7 @@ const Home = () => {
                                     <button className='text-[14px] text-white font-bold Bold'>Choose Plan</button>
 
                                 </div>
-                                <h1 className='text-[14px] font-medium Medium text-[#783FBE] underline text-center mt-[21px] mb-[30px]'>Get Your 30 Day Free Trail</h1>
+                                <h1 className='text-[14px] font-medium Medium text-[#783FBE] underline text-center hover:text-white mt-[21px] mb-[30px]'>Get Your 30 Day Free Trail</h1>
 
 
 
