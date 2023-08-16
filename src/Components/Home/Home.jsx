@@ -59,7 +59,7 @@ const Home = () => {
                             </p>
 
                             <div className='flex justify-center items-center gap-[25px] mt-[35px]'>
-                                <button className='lg:w-[195px] ho border-[1px]  ChosePlan Gradient py-5 text-[#fff] text-[16px] Bold'>
+                                <button className='lg:w-[195px] hover:border-none border-[1px]  ChosePlan Gradient py-5 text-[#fff] text-[16px] Bold'>
                                     Get Started
                                 </button>
                                 <button className='lg:w-[200px] hover:bg-gradient-to-r from-[#25DEEE] to-[#38A6E0] hover:border-none border-[1px] border-white rounded-[8px]  py-5 text-[#fff] text-[16px] Bold'>
