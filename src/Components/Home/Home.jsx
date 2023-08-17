@@ -778,7 +778,7 @@ const Home = () => {
                         data-aos-easing="ease-in-out"
                         data-aos-mirror="true"
                         data-aos-once="true"
-                        data-aos-offset="200" className='containerWidth mx-auto text-white text-center 2xl:mr-40 lg:mr-24 text-[16px] font-normal Normal mb-[40px]'>
+                        data-aos-offset="200" className='containerWidth mx-auto text-white text-center 2xl:mr-40 lg:mr-24 text-[16px] font-normal Normal pb-[40px]'>
                         <p>© Copyright © 2020 Design by Xpeed Page</p>
                     </div>
 
