@@ -49,6 +49,22 @@
 
 }
 
+
+@media (min-width: 1920px) {
+    .containerWidth{
+        width: 1920px;
+    }
+    .bg_Banner {
+        height: 1440px;
+    }
+    .bg_Footer{
+        height: 1400px;
+        
+
+    }
+
+  }
+
 .bg_Footer {
     background-image: url(../assets/Image/footer.png);
     background-position: center;
