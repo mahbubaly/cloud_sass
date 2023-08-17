@@ -694,7 +694,7 @@ const Home = () => {
 
 
 
-                <footer className='bg_Footer lg:h-[817.32px] 2xl:h-[1100px] '>
+                <footer className='bg_Footer xl:h-[817.32px] 2xl:h-[1100px] '>
 
                     <div  data-aos="fade-up" data-aos-delay="50"
 
