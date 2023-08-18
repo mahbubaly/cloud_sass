@@ -420,7 +420,7 @@ const Home = () => {
 
                     <Swiper
 
-                        spaceBetween={10}
+                       
                         pagination={{
                             clickable: true,
                         }}
@@ -442,7 +442,7 @@ const Home = () => {
                         className=" px-[150px]"
                     >
 
-                        <SwiperSlide className='py-10' >
+                        <SwiperSlide className='py-10 ' >
 
                             <div className="card sm:w-auto w-[260px] mx-auto xl:w-auto   bg-base-100 Box_shadow hover:shadow-xl hover:shadow-slate-300">
                                 <div className='mt-[50px]  ml-[30px]'>
@@ -594,7 +594,8 @@ const Home = () => {
                 <section>
 
                     <div className='containerWidth mx-auto'>
-                        <div className='text-center mt-[50px] sm:mt-[100px] lg:mt-[236px]'>
+
+                        <div className='text-center mt-[50px]  xl:mt-[236px]'>
                             <h1 data-aos="fade-right" data-aos-delay="50"
                                 data-of
                                 data-aos-duration="1000"
@@ -613,125 +614,161 @@ const Home = () => {
                             </p>
                         </div>
 
-                        <div data-aos="zoom-in" data-aos-delay="50"
-                            data-of
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out"
-                            data-aos-mirror="true"
-                            data-aos-once="true"
-                            data-aos-offset="200" className='grid lg:px-[80px] xl:px-[225px] lg:mt-[50px] grid-cols-1 gap-[30px] lg:grid-cols-3'>
 
-                            {/* 1 */}
-
-                            <div className="card sm:w-auto w-[280px] lg:mx-0 mx-auto xl:w-[310px]  rounded-[25px] 2xl:w-auto  bg-base-100 Box_shadow text-center bg_stander text-[#272223] ">
-                                <h2 className=' text-[20px] uppercase mt-[30px] font-medium Medium'>Basic</h2>
-                                <h1 className=' lg:text-[50px] uppercase mt-[23px] font-medium Medium'>$65.99</h1>
-                                <p className=' text-[16px] uppercase mt-[24px] pb-[31px] font-bold Bold'>Yearly</p>
-
-                                <hr className='borderBottom mb-[31px]' />
+                        {/* Swiper */}
 
 
-                                <div className='space-y-[17px] pb-[31px]   font-normal Normal text-lg'>
-                                    <h2 className='text-lg  font-medium Medium'>Perfect for Individual</h2>
-                                    <p>50 GB Cloud Storage</p>
-                                    <p>
-                                        Automated Server Backup
-                                    </p>
-                                    <p>24/7 Support</p>
-                                    <p>Customer Management</p>
+                        <Swiper
+
+                            
+                            pagination={{
+                                clickable: true,
+                            }}
+                            breakpoints={{
+                                640: {
+                                    slidesPerView: 1,
+                                    spaceBetween: 20,
+                                },
+                                768: {
+                                    slidesPerView: 2,
+                                    spaceBetween: 40,
+                                },
+                                1024: {
+                                    slidesPerView: 3,
+                                    spaceBetween: 30,
+                                },
+                            }}
+                            modules={[Pagination]}
+                            className=" px-[150px]"
+                        >
+
+                            <SwiperSlide className='py-10' >
+
+                                {/* 1 */}
+
+                                <div className="card sm:w-auto w-[280px] lg:mx-0 mx-auto xl:w-auto  rounded-[25px] 2xl:w-auto  bg-base-100 Box_shadow text-center bg_stander text-[#272223] ">
+                                    <h2 className=' text-[20px] uppercase mt-[30px] font-medium Medium'>Basic</h2>
+                                    <h1 className=' lg:text-[50px] uppercase mt-[23px] font-medium Medium'>$65.99</h1>
+                                    <p className=' text-[16px] uppercase mt-[24px] pb-[31px] font-bold Bold'>Yearly</p>
+
+                                    <hr className='borderBottom mb-[31px]' />
+
+
+                                    <div className='space-y-[17px] pb-[31px]   font-normal Normal text-lg'>
+                                        <h2 className='text-lg  font-medium Medium'>Perfect for Individual</h2>
+                                        <p>50 GB Cloud Storage</p>
+                                        <p>
+                                            Automated Server Backup
+                                        </p>
+                                        <p>24/7 Support</p>
+                                        <p>Customer Management</p>
+
+                                    </div>
+
+                                    <hr className='borderBottom mb-[31px]' />
+
+
+                                    <div className='mt-[30px] w-[188px] mx-auto py-4 px-[44px] ChosePlan'>
+                                        <button className=' text-[14px] text-white font-bold Bold'>Choose Plan</button>
+
+                                    </div>
+                                    <h1 className='text-[14px] font-medium Medium text-[#783FBE] underline text-center hover:text-white mt-[21px] mb-[30px]'>Get Your 30 Day Free Trail</h1>
+
+
+
 
                                 </div>
+                            </SwiperSlide>
+                            <SwiperSlide className='py-10'>
+                                {/* 2 */}
 
-                                <hr className='borderBottom mb-[31px]' />
 
 
-                                <div className='mt-[30px] w-[188px] mx-auto py-4 px-[44px] ChosePlan'>
-                                    <button className=' text-[14px] text-white font-bold Bold'>Choose Plan</button>
+
+                                <div className="card sm:w-auto w-[280px] lg:mx-0 mx-auto xl:w-auto bg_stander text-[#272223]  rounded-[25px] 2xl:w-auto  bg-base-100 Box_shadow text-center">
+                                    <h2 className=' text-[20px] uppercase mt-[30px] font-medium Medium'>Standard</h2>
+                                    <h1 className=' lg:text-[50px] uppercase mt-[23px] font-medium Medium'>$65.99</h1>
+                                    <p className=' text-[16px] uppercase mt-[24px] pb-[31px] font-bold Bold'>Yearly</p>
+
+                                    <hr className='borderBottom mb-[31px]' />
+
+
+                                    <div className='space-y-[17px] pb-[31px]   font-normal Normal text-lg'>
+                                        <h2 className='text-lg font-medium Medium'>Perfect for Individual</h2>
+                                        <p>50 GB Cloud Storage</p>
+                                        <p>
+                                            Automated Server Backup
+                                        </p>
+                                        <p>24/7 Support</p>
+                                        <p>Customer Management</p>
+
+                                    </div>
+
+                                    <hr className='borderBottom mb-[31px]' />
+
+
+                                    <div className='mt-[30px]  w-[188px mx-auto py-4 px-[44px] ChosePlan'>
+                                        <button className='text-[14px] text-white font-bold Bold'>Choose Plan</button>
+
+                                    </div>
+                                    <h1 className='text-[14px] font-medium Medium text-[#783FBE] underline text-center hover:text-white mt-[21px] mb-[30px]'>Get Your 30 Day Free Trail</h1>
+
+
+
 
                                 </div>
-                                <h1 className='text-[14px] font-medium Medium text-[#783FBE] underline text-center hover:text-white mt-[21px] mb-[30px]'>Get Your 30 Day Free Trail</h1>
+                            </SwiperSlide>
+
+
+                            <SwiperSlide className='py-10'>
+                                {/* 3 */}
+
+                                <div className="card sm:w-auto w-[280px] lg:mx-0 mx-auto xl:w-auto bg_stander  text-[#272223]  rounded-[25px] 2xl:w-auto   bg-base-100 Box_shadow text-center">
+                                    <h2 className=' text-[20px] uppercase mt-[30px] font-medium Medium'>Premium</h2>
+                                    <h1 className=' lg:text-[50px] uppercase mt-[23px] font-medium Medium'>$65.99</h1>
+                                    <p className=' text-[16px] uppercase mt-[24px] pb-[31px] font-bold Bold'>Yearly</p>
+
+                                    <hr className='borderBottom mb-[31px] bg-white' />
+
+
+                                    <div className='space-y-[17px] pb-[31px]   font-normal Normal text-lg'>
+                                        <h2 className='text-lg  font-medium Medium'>Perfect for Individual</h2>
+                                        <p>50 GB Cloud Storage</p>
+                                        <p>
+                                            Automated Server Backup
+                                        </p>
+                                        <p>24/7 Support</p>
+                                        <p>Customer Management</p>
+
+                                    </div>
+
+                                    <hr className='borderBottom mb-[31px]' />
 
 
 
 
-                            </div>
+                                    <div className='mt-[30px]  w-[188px mx-auto py-4 px-[44px] ChosePlan'>
+                                        <button className='text-[14px] text-white font-bold Bold'>Choose Plan</button>
 
-                            {/* 2 */}
-
-
-
-
-                            <div className="card sm:w-auto w-[280px] lg:mx-0 mx-auto xl:w-[310px] bg_stander text-[#272223]  rounded-[25px] 2xl:w-auto  bg-base-100 Box_shadow text-center">
-                                <h2 className=' text-[20px] uppercase mt-[30px] font-medium Medium'>Standard</h2>
-                                <h1 className=' lg:text-[50px] uppercase mt-[23px] font-medium Medium'>$65.99</h1>
-                                <p className=' text-[16px] uppercase mt-[24px] pb-[31px] font-bold Bold'>Yearly</p>
-
-                                <hr className='borderBottom mb-[31px]' />
+                                    </div>
+                                    <h1 className='text-[14px] font-medium Medium  text-[#783FBE] hover:text-white underline text-center mt-[21px] mb-[30px]'>Get Your 30 Day Free Trail</h1>
 
 
-                                <div className='space-y-[17px] pb-[31px]   font-normal Normal text-lg'>
-                                    <h2 className='text-lg font-medium Medium'>Perfect for Individual</h2>
-                                    <p>50 GB Cloud Storage</p>
-                                    <p>
-                                        Automated Server Backup
-                                    </p>
-                                    <p>24/7 Support</p>
-                                    <p>Customer Management</p>
+
 
                                 </div>
+                            </SwiperSlide>
+                         
 
-                                <hr className='borderBottom mb-[31px]' />
 
-
-                                <div className='mt-[30px]  w-[188px mx-auto py-4 px-[44px] ChosePlan'>
-                                    <button className='text-[14px] text-white font-bold Bold'>Choose Plan</button>
-
-                                </div>
-                                <h1 className='text-[14px] font-medium Medium text-[#783FBE] underline text-center hover:text-white mt-[21px] mb-[30px]'>Get Your 30 Day Free Trail</h1>
+                        </Swiper>
 
 
 
 
-                            </div>
-
-                            {/* 3 */}
-
-                            <div className="card sm:w-auto w-[280px] lg:mx-0 mx-auto xl:w-[310px] bg_stander  text-[#272223]  rounded-[25px] 2xl:w-auto   bg-base-100 Box_shadow text-center">
-                                <h2 className=' text-[20px] uppercase mt-[30px] font-medium Medium'>Premium</h2>
-                                <h1 className=' lg:text-[50px] uppercase mt-[23px] font-medium Medium'>$65.99</h1>
-                                <p className=' text-[16px] uppercase mt-[24px] pb-[31px] font-bold Bold'>Yearly</p>
-
-                                <hr className='borderBottom mb-[31px] bg-white' />
 
 
-                                <div className='space-y-[17px] pb-[31px]   font-normal Normal text-lg'>
-                                    <h2 className='text-lg  font-medium Medium'>Perfect for Individual</h2>
-                                    <p>50 GB Cloud Storage</p>
-                                    <p>
-                                        Automated Server Backup
-                                    </p>
-                                    <p>24/7 Support</p>
-                                    <p>Customer Management</p>
-
-                                </div>
-
-                                <hr className='borderBottom mb-[31px]' />
-
-
-
-
-                                <div className='mt-[30px]  w-[188px mx-auto py-4 px-[44px] ChosePlan'>
-                                    <button className='text-[14px] text-white font-bold Bold'>Choose Plan</button>
-
-                                </div>
-                                <h1 className='text-[14px] font-medium Medium  text-[#783FBE] hover:text-white underline text-center mt-[21px] mb-[30px]'>Get Your 30 Day Free Trail</h1>
-
-
-
-
-                            </div>
-
-                        </div>
+                      
                     </div>
                 </section>
 
@@ -743,7 +780,7 @@ const Home = () => {
                         data-aos-easing="ease-in-out"
                         data-aos-mirror="true"
                         data-aos-once="true"
-                        data-aos-offset="200" className='text-center mt-[180px]'>
+                        data-aos-offset="200" className='text-center mt-[50px] lg:mt-[180px]'>
                         <SectionTitle tittle={'Awarded & Trusted By'} />
                     </div>
 
@@ -813,7 +850,7 @@ const Home = () => {
                         data-aos-offset="200"
                         className='containerWidth mx-auto px-5 lg:px-[80px] xl:px-[150px] mt-[50px] lg:mt-[98px] lg:flex 2xl:gap-[300px] lg:gap-[90px] items-center'>
 
-                            {/* 1 */}
+                        {/* 1 */}
                         <div className=''>
                             <h1 className='Bold font-bold lg:text-start text-center text-[25px]  lg:text-[30px] text-[#FFF]'>Xpeed Cloud</h1>
                             <div className='flex justify-center lg:justify-start gap-[105px] lg:gap-5 mt-[30px]'>
