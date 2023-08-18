@@ -58,23 +58,81 @@
 
 }
 
+/* mobile  */
+
+@media (max-width: 480px) {
+    .bg_Banner {
+        background-image: url(../assets/Image/mobile.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 550px;
+    
+    
+    
+    
+    }
+
+    .bg_Footer {
+        background-image: url(../assets/Image/mbfooter.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    
+    }
+
+
+
+}
+
+
+
+
+
+
+
+/* laptop and Desktop/ */
+@media (min-width: 1024px) {
+    .containerWidth {
+        width: 100%;
+
+    }
+
+
+}
+
+@media (min-width: 1440px) {
+    .containerWidth {
+        width: 100%;
+
+    }
+
+
+}
+
+
 
 @media (min-width: 1920px) {
-    .containerWidth{
+    .containerWidth {
         width: 1920px;
-        
+
     }
+
     .bg_Banner {
         height: 1440px;
 
     }
-    .bg_Footer{
+
+    .bg_Footer {
         height: 1400px;
-        
+
 
     }
 
-  }
+}
+
 
 
 
@@ -115,6 +173,7 @@
     border-radius: 8px;
     background: linear-gradient(315deg, #25DEEE 0%, #38A6E0 100%);
 }
+
 .ChosePlan:hover {
     border-radius: 8px;
     background: linear-gradient(315deg, #0c7a84 0%, #38A6E0 100%);
@@ -127,7 +186,8 @@
 }
 
 .input::placeholder {
-    border: 1px solid #3498db; /* This will set the border color to a blue color */
-  }
+    border: 1px solid #3498db;
+    /* This will set the border color to a blue color */
+}
 
 
