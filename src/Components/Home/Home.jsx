@@ -61,49 +61,33 @@ const Home = () => {
 
                     </nav>
                     <section>
-                        <div className='containerWidth pb-[20px] mx-auto px-5 lg:px-0 sm:pt-[50px]  pt-[31px] lg:pt-[100px] xl:pt-[154px]'>
-                            <h1 data-aos="fade-right" data-aos-delay="50"
-                                data-aos-duration="1000"
-                                data-aos-easing="ease-in-out"
-                                data-aos-mirror="false"
-                                data-aos-once="false"
-                                data-aos-anchor-placement="top-center"
+                        <div
+                            data-aos="fade-up" data-aos-delay="50"
+
+                            data-aos-duration="1500"
+                            data-aos-easing="ease-in-out"
+                            data-aos-mirror="true"
+                            data-aos-once="true"
+                            data-aos-offset="200" className='containerWidth pb-[20px] mx-auto px-5 lg:px-0 sm:pt-[50px]  pt-[31px] lg:pt-[100px] xl:pt-[154px]'>
+
+                            <h1
                                 className='Medium font-medium text-[30px] lg:text-[40px] xl:text-[65px] lg:w-[775px] mx-auto text-center text-[#FFF]'>Everything You Need To Do Better Work</h1>
 
 
-                            <p data-aos="fade-left" data-aos-delay="50"
-                                data-of
-                                data-aos-duration="1000"
-                                data-aos-easing="ease-in-out"
-                                data-aos-mirror="true"
-                                data-aos-once="true"
-                                data-aos-offset="200"
+                            <p
                                 className='mt-[15px] lg:mt-[25px]  text-center Normal mx-auto text-[#fff] text-lg lg:w-[663px]'>
                                 Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard.
                             </p>
 
                             <div className='lg:flex justify-center gap-[25px]  mt-[35px]'>
                                 <div className='lg:px-0 px-[36px] lg:block flex justify-center'>
-                                    <button data-aos="fade-right" data-aos-delay="50"
-                                        data-of
-                                        data-aos-duration="1000"
-                                        data-aos-easing="ease-in-out"
-                                        data-aos-mirror="true"
-                                        data-aos-once="true"
-                                        data-aos-offset="200"
+                                    <button
                                         className='lg:w-[195px] sm:w-full w-[194px] h-[49px]  lg:h-[59px]  py-[15px] lg:py-5  ChosePlan Gradient  text-[#fff] text-[16px] Bold'>
                                         Get Started
                                     </button>
                                 </div>
                                 <div className='lg:px-0 px-[36px] lg:mb-0 lg:block flex justify-center '>
-                                    <button data-aos="fade-right" data-aos-delay="50"
-                                        data-of
-                                        data-aos-duration="1000"
-                                        data-aos-easing="ease-in-out"
-                                        data-aos-mirror="true"
-                                        data-aos-once="true"
-                                        data-aos-offset="200"
-
+                                    <button
                                         className='lg:w-[200px] sm:w-full w-[194px] h-[49px] mt-5 sm:mt-0 lg:h-[60px] hover:bg-gradient-to-r from-[#25DEEE] to-[#38A6E0] hover:border-none border-[0.5px] border-white rounded-[8px]  py-[15px] lg:py-5 text-[#fff] text-[16px] Bold  '>
                                         Watch Trailer
                                     </button>
@@ -122,21 +106,16 @@ const Home = () => {
 
                 <section>
 
-                    <div className='  lg:mt-0 mt-[50px] containerWidth mx-auto lg:w-[563px] text-center'>
-                        <h1 data-aos="fade-right" data-aos-delay="50"
-                            data-of
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out"
-                            data-aos-mirror="true"
-                            data-aos-once="true"
-                            data-aos-offset="200" className='text-[#321C3C] text-[25px] lg:text-[35px] xl:text-[48px] Normal'>Our Solution</h1>
-                        <p data-aos="fade-left" data-aos-delay="50"
-                            data-of
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out"
-                            data-aos-mirror="true"
-                            data-aos-once="true"
-                            data-aos-offset="200" className='text-[#413F42] lg:px-0 px-5 text-lg Light font-light mt-5 '>When it comes to choosing the right web hosting provider, we know how easy it is to get overwhelmed with the number.
+                    <div data-aos="fade-up" data-aos-delay="50"
+
+                        data-aos-duration="1500"
+                        data-aos-easing="ease-in-out"
+                        data-aos-mirror="true"
+                        data-aos-once="true"
+                        data-aos-offset="200"
+                        className='  lg:mt-0 mt-[50px] containerWidth mx-auto lg:w-[563px] text-center'>
+                        <h1 className='text-[#321C3C] text-[25px] lg:text-[35px] xl:text-[48px] Normal'>Our Solution</h1>
+                        <p className='text-[#413F42] xl:w-[563px] mx-0 lg:mx-auto lg:px-0 px-5 text-lg Light font-light mt-5 '>When it comes to choosing the right web hosting provider, we know how easy it is to get overwhelmed with the number.
 
                         </p>
 
@@ -148,8 +127,8 @@ const Home = () => {
                     <div className='containerWidth mx-auto lg:px-[150px] px-[24px] mt-[30px] lg:mt-[50px]'>
 
                         <div data-aos="fade-up" data-aos-delay="50"
-                            data-of
-                            data-aos-duration="1000"
+
+                            data-aos-duration="1500"
                             data-aos-easing="ease-in-out"
                             data-aos-mirror="true"
                             data-aos-once="true"
@@ -236,15 +215,15 @@ const Home = () => {
 
                 <section>
                     <div data-aos="fade-up" data-aos-delay="50"
-                        data-of
-                        data-aos-duration="1000"
+
+                        data-aos-duration="1500"
                         data-aos-easing="ease-in-out"
                         data-aos-mirror="true"
                         data-aos-once="true"
                         data-aos-offset="200"
                         className=' containerWidth mx-auto px-5 lg:px-0 lg:w-[563px] text-center mt-[50px] lg:mt-[100px] xl:mt-[180px]'>
                         <h1 className='text-[#321C3C] text-[25px] lg:text-[48px] Normal'>Why Choose Us</h1>
-                        <p className='text-[#413F42] text-lg Light font-light mt-[15px] lg:mt-5 '>When it comes to choosing the right web hosting provider, we know how easy it is to get overwhelmed with the number.
+                        <p className='text-[#413F42]  lg:mx-auto lg:w-[563px] text-lg Light font-light mt-[15px] lg:mt-5 '>When it comes to choosing the right web hosting provider, we know how easy it is to get overwhelmed with the number.
 
                         </p>
 
@@ -257,7 +236,7 @@ const Home = () => {
                     <div className='containerWidth mx-auto mt-[30px] lg:mt-[50px] grid grid-cols-1 items-center lg:mb-[189px] lg:grid-cols-2 gap-[61px] lg:pr-[80px] xl:pr-[150px]'>
 
                         <div data-aos="fade-right" data-aos-delay="50"
-                            data-of
+
                             data-aos-duration="1000"
                             data-aos-easing="ease-in-out"
                             data-aos-mirror="true"
@@ -267,7 +246,7 @@ const Home = () => {
 
                         </div>
                         <div data-aos="fade-left" data-aos-delay="50"
-                            data-of
+
                             data-aos-duration="1000"
                             data-aos-easing="ease-in-out"
                             data-aos-mirror="true"
@@ -308,7 +287,7 @@ const Home = () => {
                 <section>
                     <div className='containerWidth lg:mt-0 mt-[50px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-[20px]'>
                         <div data-aos="fade-right" data-aos-delay="50"
-                            data-of
+
                             data-aos-duration="1000"
                             data-aos-easing="ease-in-out"
                             data-aos-mirror="true"
@@ -335,7 +314,7 @@ const Home = () => {
                         </div>
 
                         <div className='mt-[30px] lg:mt-0' data-aos="fade-left" data-aos-delay="50"
-                            data-of
+
                             data-aos-duration="1000"
                             data-aos-easing="ease-in-out"
                             data-aos-mirror="true"
@@ -357,7 +336,7 @@ const Home = () => {
                     <div className='containerWidth mx-auto lg:px-[30px] mt-[50px] lg:mt-[184px] grid lg:grid-cols-2 grid-cols-1 gap-[50px]'>
 
                         <div data-aos="fade-right" data-aos-delay="50"
-                            data-of
+
                             data-aos-duration="1000"
                             data-aos-easing="ease-in-out"
                             data-aos-mirror="true"
@@ -367,7 +346,7 @@ const Home = () => {
 
                         </div>
                         <div data-aos="fade-left" data-aos-delay="50"
-                            data-of
+
                             data-aos-duration="1000"
                             data-aos-easing="ease-in-out"
                             data-aos-mirror="true"
@@ -394,9 +373,10 @@ const Home = () => {
 
 
                 <section className='containerWidth mx-auto'>
-                    <div className='mt-[30px] lg:mt-0 px-5 lg:px-0' data-aos="fade-up" data-aos-delay="50"
-                        data-of
-                        data-aos-duration="1000"
+                    <div className='mt-[30px] lg:mt-0 px-5 lg:px-0'
+                        data-aos="fade-up"
+                        data-aos-delay="50"
+                        data-aos-duration="1500"
                         data-aos-easing="ease-in-out"
                         data-aos-mirror="true"
                         data-aos-once="true"
@@ -418,166 +398,175 @@ const Home = () => {
                     {/* Swiper */}
 
 
-                    <Swiper
-
-                       
-                        pagination={{
-                            clickable: true,
-                        }}
-                        breakpoints={{
-                            640: {
-                                slidesPerView: 1,
-                                spaceBetween: 20,
-                            },
-                            768: {
-                                slidesPerView: 2,
-                                spaceBetween: 40,
-                            },
-                            1024: {
-                                slidesPerView: 3,
-                                spaceBetween: 50,
-                            },
-                        }}
-                        modules={[Pagination]}
-                        className=" px-[150px]"
-                    >
-
-                        <SwiperSlide className='py-10 ' >
-
-                            <div className="card sm:w-auto w-[260px] mx-auto xl:w-auto   bg-base-100 Box_shadow hover:shadow-xl hover:shadow-slate-300">
-                                <div className='mt-[50px]  ml-[30px]'>
-                                    <img src={quote} className='w-[46px] h-[36px] top-[50px] absolute  ' alt="BackUp" />
+                    <div className='lg:px-[150px]'
+                        data-aos="fade-up"
+                        data-aos-delay="50"
+                        data-aos-duration="1500"
+                        data-aos-easing="ease-in-out"
+                        data-aos-mirror="true"
+                        data-aos-once="true"
+                        data-aos-offset="200">
+                        <Swiper
 
 
-                                </div>
-                                <div className="relative">
+                            pagination={{
+                                clickable: true,
+                            }}
+                            breakpoints={{
+                                640: {
+                                    slidesPerView: 1,
+                                    spaceBetween: 20,
+                                },
+                                768: {
+                                    slidesPerView: 2,
+                                    spaceBetween: 40,
+                                },
+                                1024: {
+                                    slidesPerView: 3,
+                                    spaceBetween: 50,
+                                },
+                            }}
+                            modules={[Pagination]}
+                            className=" px-[150px]"
+                        >
 
-                                    <p className='lg:pl-[40px] pl-[25px] pr-[25px] lg:pr-[30px] text-[14px] lg:text-lg font-normal Normal   mt-4 '>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more..</p>
+                            <SwiperSlide className='py-10 ' >
 
-                                </div>
+                                <div className="card sm:w-auto w-[260px] mx-auto xl:w-auto   bg-base-100 Box_shadow hover:shadow-xl hover:shadow-slate-300">
+                                    <div className='mt-[50px]  ml-[30px]'>
+                                        <img src={quote} className='w-[46px] h-[36px] top-[50px] absolute  ' alt="BackUp" />
 
-                                <div className=' pl-[40px] mt-[19px] flex gap-2'>
-                                    <img src={star} className='w-[12px] h-[11px]' alt="" />
-                                    <img src={star} className='w-[12px] h-[11px]' alt="" />
-                                    <img src={star} className='w-[12px] h-[11px]' alt="" />
-                                    <img src={star} className='w-[12px] h-[11px]' alt="" />
-                                    <img src={star} className='w-[12px] h-[11px]' alt="" />
 
-                                </div>
+                                    </div>
+                                    <div className="relative">
 
-                                <div className='lg:pl-[40px] pl-[25px] pr-[19px] pt-[33px] pb-[50px] flex gap-[15px] 2xl:gap-[30px]'>
-                                    <img src={oval} className='w-[50px]   h-[50px]' alt="" />
-                                    <div>
-                                        <h1 className='text-[14px] lg:text-lg font-semibold SemiBold'>
-                                            Tufayel Ahmed Nayef
-                                        </h1>
-                                        <p className='text-[14px] font-normal Normal text-[#272223]'>Visual Designer</p>
+                                        <p className='lg:pl-[40px] pl-[25px] pr-[25px] lg:pr-[30px] text-[14px] lg:text-lg font-normal Normal   mt-4 '>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more..</p>
+
+                                    </div>
+
+                                    <div className=' pl-[40px] mt-[19px] flex gap-2'>
+                                        <img src={star} className='w-[12px] h-[11px]' alt="" />
+                                        <img src={star} className='w-[12px] h-[11px]' alt="" />
+                                        <img src={star} className='w-[12px] h-[11px]' alt="" />
+                                        <img src={star} className='w-[12px] h-[11px]' alt="" />
+                                        <img src={star} className='w-[12px] h-[11px]' alt="" />
+
+                                    </div>
+
+                                    <div className='lg:pl-[40px] pl-[25px] pr-[19px] pt-[33px] pb-[50px] flex gap-[15px] 2xl:gap-[30px]'>
+                                        <img src={oval} className='w-[50px]   h-[50px]' alt="" />
+                                        <div>
+                                            <h1 className='text-[14px] lg:text-lg font-semibold SemiBold'>
+                                                Tufayel Ahmed Nayef
+                                            </h1>
+                                            <p className='text-[14px] font-normal Normal text-[#272223]'>Visual Designer</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide className='py-10'>
-                            <div className="card sm:w-auto w-[260px] mx-auto xl:w-auto   bg-base-100 Box_shadow hover:shadow-xl hover:shadow-slate-300">
-                                <div className='mt-[50px]  ml-[30px]'>
-                                    <img src={quote} className='w-[46px] h-[36px] top-[50px] absolute  ' alt="BackUp" />
+                            </SwiperSlide>
+                            <SwiperSlide className='py-10'>
+                                <div className="card sm:w-auto w-[260px] mx-auto xl:w-auto   bg-base-100 Box_shadow hover:shadow-xl hover:shadow-slate-300">
+                                    <div className='mt-[50px]  ml-[30px]'>
+                                        <img src={quote} className='w-[46px] h-[36px] top-[50px] absolute  ' alt="BackUp" />
 
 
-                                </div>
-                                <div className="relative">
+                                    </div>
+                                    <div className="relative">
 
-                                    <p className='lg:pl-[40px] pl-[25px] pr-[25px] lg:pr-[30px] text-[14px] lg:text-lg font-normal Normal   mt-4 '>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more..</p>
+                                        <p className='lg:pl-[40px] pl-[25px] pr-[25px] lg:pr-[30px] text-[14px] lg:text-lg font-normal Normal   mt-4 '>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more..</p>
 
-                                </div>
+                                    </div>
 
-                                <div className=' pl-[40px] mt-[19px] flex gap-2'>
-                                    <img src={star} className='w-[12px] h-[11px]' alt="" />
-                                    <img src={star} className='w-[12px] h-[11px]' alt="" />
-                                    <img src={star} className='w-[12px] h-[11px]' alt="" />
-                                    <img src={star} className='w-[12px] h-[11px]' alt="" />
-                                    <img src={star} className='w-[12px] h-[11px]' alt="" />
+                                    <div className=' pl-[40px] mt-[19px] flex gap-2'>
+                                        <img src={star} className='w-[12px] h-[11px]' alt="" />
+                                        <img src={star} className='w-[12px] h-[11px]' alt="" />
+                                        <img src={star} className='w-[12px] h-[11px]' alt="" />
+                                        <img src={star} className='w-[12px] h-[11px]' alt="" />
+                                        <img src={star} className='w-[12px] h-[11px]' alt="" />
 
-                                </div>
+                                    </div>
 
-                                <div className='lg:pl-[40px] pl-[25px] pr-[19px] pt-[33px] pb-[50px] flex gap-[15px] 2xl:gap-[30px]'>
-                                    <img src={oval2} className='w-[50px]   h-[50px]' alt="" />
-                                    <div>
-                                        <h1 className='text-[14px] lg:text-lg font-semibold SemiBold'>
-                                            Tufayel Ahmed Nayef
-                                        </h1>
-                                        <p className='text-[14px] font-normal Normal text-[#272223]'>Visual Designer</p>
+                                    <div className='lg:pl-[40px] pl-[25px] pr-[19px] pt-[33px] pb-[50px] flex gap-[15px] 2xl:gap-[30px]'>
+                                        <img src={oval2} className='w-[50px]   h-[50px]' alt="" />
+                                        <div>
+                                            <h1 className='text-[14px] lg:text-lg font-semibold SemiBold'>
+                                                Tufayel Ahmed Nayef
+                                            </h1>
+                                            <p className='text-[14px] font-normal Normal text-[#272223]'>Visual Designer</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide className='py-10'>
-                            <div className="card sm:w-auto w-[260px] mx-auto xl:w-auto   bg-base-100 Box_shadow hover:shadow-xl hover:shadow-slate-300">
-                                <div className='mt-[50px]  ml-[30px]'>
-                                    <img src={quote} className='w-[46px] h-[36px] top-[50px] absolute  ' alt="BackUp" />
+                            </SwiperSlide>
+                            <SwiperSlide className='py-10'>
+                                <div className="card sm:w-auto w-[260px] mx-auto xl:w-auto   bg-base-100 Box_shadow hover:shadow-xl hover:shadow-slate-300">
+                                    <div className='mt-[50px]  ml-[30px]'>
+                                        <img src={quote} className='w-[46px] h-[36px] top-[50px] absolute  ' alt="BackUp" />
 
 
-                                </div>
-                                <div className="relative">
+                                    </div>
+                                    <div className="relative">
 
-                                    <p className='lg:pl-[40px] pl-[25px] pr-[25px] lg:pr-[30px] text-[14px] lg:text-lg font-normal Normal   mt-4 '>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more..</p>
+                                        <p className='lg:pl-[40px] pl-[25px] pr-[25px] lg:pr-[30px] text-[14px] lg:text-lg font-normal Normal   mt-4 '>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more..</p>
 
-                                </div>
+                                    </div>
 
-                                <div className=' pl-[40px] mt-[19px] flex gap-2'>
-                                    <img src={star} className='w-[12px] h-[11px]' alt="" />
-                                    <img src={star} className='w-[12px] h-[11px]' alt="" />
-                                    <img src={star} className='w-[12px] h-[11px]' alt="" />
-                                    <img src={star} className='w-[12px] h-[11px]' alt="" />
-                                    <img src={star} className='w-[12px] h-[11px]' alt="" />
+                                    <div className=' pl-[40px] mt-[19px] flex gap-2'>
+                                        <img src={star} className='w-[12px] h-[11px]' alt="" />
+                                        <img src={star} className='w-[12px] h-[11px]' alt="" />
+                                        <img src={star} className='w-[12px] h-[11px]' alt="" />
+                                        <img src={star} className='w-[12px] h-[11px]' alt="" />
+                                        <img src={star} className='w-[12px] h-[11px]' alt="" />
 
-                                </div>
+                                    </div>
 
-                                <div className='lg:pl-[40px] pl-[25px] pr-[19px] pt-[33px] pb-[50px] flex gap-[15px] 2xl:gap-[30px]'>
-                                    <img src={oval3} className='w-[50px]   h-[50px]' alt="" />
-                                    <div>
-                                        <h1 className='text-[14px] lg:text-lg font-semibold SemiBold'>
-                                            Tufayel Ahmed Nayef
-                                        </h1>
-                                        <p className='text-[14px] font-normal Normal text-[#272223]'>Visual Designer</p>
+                                    <div className='lg:pl-[40px] pl-[25px] pr-[19px] pt-[33px] pb-[50px] flex gap-[15px] 2xl:gap-[30px]'>
+                                        <img src={oval3} className='w-[50px]   h-[50px]' alt="" />
+                                        <div>
+                                            <h1 className='text-[14px] lg:text-lg font-semibold SemiBold'>
+                                                Tufayel Ahmed Nayef
+                                            </h1>
+                                            <p className='text-[14px] font-normal Normal text-[#272223]'>Visual Designer</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide className='py-10'>
-                            <div className="card sm:w-auto w-[260px] mx-auto xl:w-auto   bg-base-100 Box_shadow hover:shadow-xl hover:shadow-slate-300">
-                                <div className='mt-[50px]  ml-[30px]'>
-                                    <img src={quote} className='w-[46px] h-[36px] top-[50px] absolute  ' alt="BackUp" />
+                            </SwiperSlide>
+                            <SwiperSlide className='py-10'>
+                                <div className="card sm:w-auto w-[260px] mx-auto xl:w-auto   bg-base-100 Box_shadow hover:shadow-xl hover:shadow-slate-300">
+                                    <div className='mt-[50px]  ml-[30px]'>
+                                        <img src={quote} className='w-[46px] h-[36px] top-[50px] absolute  ' alt="BackUp" />
 
 
-                                </div>
-                                <div className="relative">
+                                    </div>
+                                    <div className="relative">
 
-                                    <p className='lg:pl-[40px] pl-[25px] pr-[25px] lg:pr-[30px] text-[14px] lg:text-lg font-normal Normal   mt-4 '>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more..</p>
+                                        <p className='lg:pl-[40px] pl-[25px] pr-[25px] lg:pr-[30px] text-[14px] lg:text-lg font-normal Normal   mt-4 '>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more..</p>
 
-                                </div>
+                                    </div>
 
-                                <div className=' pl-[40px] mt-[19px] flex gap-2'>
-                                    <img src={star} className='w-[12px] h-[11px]' alt="" />
-                                    <img src={star} className='w-[12px] h-[11px]' alt="" />
-                                    <img src={star} className='w-[12px] h-[11px]' alt="" />
-                                    <img src={star} className='w-[12px] h-[11px]' alt="" />
-                                    <img src={star} className='w-[12px] h-[11px]' alt="" />
+                                    <div className=' pl-[40px] mt-[19px] flex gap-2'>
+                                        <img src={star} className='w-[12px] h-[11px]' alt="" />
+                                        <img src={star} className='w-[12px] h-[11px]' alt="" />
+                                        <img src={star} className='w-[12px] h-[11px]' alt="" />
+                                        <img src={star} className='w-[12px] h-[11px]' alt="" />
+                                        <img src={star} className='w-[12px] h-[11px]' alt="" />
 
-                                </div>
+                                    </div>
 
-                                <div className='lg:pl-[40px] pl-[25px] pr-[19px] pt-[33px] pb-[50px] flex gap-[15px] 2xl:gap-[30px]'>
-                                    <img src={oval3} className='w-[50px]   h-[50px]' alt="" />
-                                    <div>
-                                        <h1 className='text-[14px] lg:text-lg font-semibold SemiBold'>
-                                            Tufayel Ahmed Nayef
-                                        </h1>
-                                        <p className='text-[14px] font-normal Normal text-[#272223]'>Visual Designer</p>
+                                    <div className='lg:pl-[40px] pl-[25px] pr-[19px] pt-[33px] pb-[50px] flex gap-[15px] 2xl:gap-[30px]'>
+                                        <img src={oval3} className='w-[50px]   h-[50px]' alt="" />
+                                        <div>
+                                            <h1 className='text-[14px] lg:text-lg font-semibold SemiBold'>
+                                                Tufayel Ahmed Nayef
+                                            </h1>
+                                            <p className='text-[14px] font-normal Normal text-[#272223]'>Visual Designer</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </SwiperSlide>
+                            </SwiperSlide>
 
 
-                    </Swiper>
+                        </Swiper>
+                    </div>
 
 
 
@@ -595,21 +584,16 @@ const Home = () => {
 
                     <div className='containerWidth mx-auto'>
 
-                        <div className='text-center mt-[50px]  xl:mt-[236px]'>
-                            <h1 data-aos="fade-right" data-aos-delay="50"
-                                data-of
-                                data-aos-duration="1000"
-                                data-aos-easing="ease-in-out"
-                                data-aos-mirror="true"
-                                data-aos-once="true"
-                                data-aos-offset="200" className='lg:text-[48px] text-[25px] font-medium Medium text-[#321C3C]'>Pricing Plans</h1>
-                            <p data-aos="fade-left" data-aos-delay="50"
-                                data-of
-                                data-aos-duration="1000"
-                                data-aos-easing="ease-in-out"
-                                data-aos-mirror="true"
-                                data-aos-once="true"
-                                data-aos-offset="200" className='lg:w-[563px] mx-auto font-normal Normal text-lg mt-[15px] lg:mt-5'>When it comes to choosing the right web hosting provider, we know how easy it is to get overwhelmed with the number.
+                        <div data-aos="fade-up"
+                            data-aos-delay="50"
+                            data-aos-duration="1500"
+                            data-aos-easing="ease-in-out"
+                            data-aos-mirror="true"
+                            data-aos-once="true"
+                            data-aos-offset="200" className='text-center mt-[50px]  xl:mt-[236px]'>
+
+                            <h1 className='lg:text-[48px] text-[25px] font-medium Medium text-[#321C3C]'>Pricing Plans</h1>
+                            <p className='lg:w-[563px] mx-auto font-normal Normal text-lg mt-[15px] lg:mt-5'>When it comes to choosing the right web hosting provider, we know how easy it is to get overwhelmed with the number.
 
                             </p>
                         </div>
@@ -618,165 +602,175 @@ const Home = () => {
                         {/* Swiper */}
 
 
-                        <Swiper
-
-                            
-                            pagination={{
-                                clickable: true,
-                            }}
-                            breakpoints={{
-                                640: {
-                                    slidesPerView: 1,
-                                    spaceBetween: 20,
-                                },
-                                768: {
-                                    slidesPerView: 2,
-                                    spaceBetween: 40,
-                                },
-                                1024: {
-                                    slidesPerView: 3,
-                                    spaceBetween: 30,
-                                },
-                            }}
-                            modules={[Pagination]}
-                            className=" px-[150px]"
+                        <div className='lg:px-[150px]'
+                            data-aos="fade-up"
+                            data-aos-delay="50"
+                            data-aos-duration="1500"
+                            data-aos-easing="ease-in-out"
+                            data-aos-mirror="true"
+                            data-aos-once="true"
+                            data-aos-offset="200"
                         >
-
-                            <SwiperSlide className='py-10' >
-
-                                {/* 1 */}
-
-                                <div className="card sm:w-auto w-[280px] lg:mx-0 mx-auto xl:w-auto  rounded-[25px] 2xl:w-auto  bg-base-100 Box_shadow text-center bg_stander text-[#272223] ">
-                                    <h2 className=' text-[20px] uppercase mt-[30px] font-medium Medium'>Basic</h2>
-                                    <h1 className=' lg:text-[50px] uppercase mt-[23px] font-medium Medium'>$65.99</h1>
-                                    <p className=' text-[16px] uppercase mt-[24px] pb-[31px] font-bold Bold'>Yearly</p>
-
-                                    <hr className='borderBottom mb-[31px]' />
+                            <Swiper
 
 
-                                    <div className='space-y-[17px] pb-[31px]   font-normal Normal text-lg'>
-                                        <h2 className='text-lg  font-medium Medium'>Perfect for Individual</h2>
-                                        <p>50 GB Cloud Storage</p>
-                                        <p>
-                                            Automated Server Backup
-                                        </p>
-                                        <p>24/7 Support</p>
-                                        <p>Customer Management</p>
+                                pagination={{
+                                    clickable: true,
+                                }}
+                                breakpoints={{
+                                    640: {
+                                        slidesPerView: 1,
+                                        spaceBetween: 20,
+                                    },
+                                    768: {
+                                        slidesPerView: 2,
+                                        spaceBetween: 40,
+                                    },
+                                    1024: {
+                                        slidesPerView: 3,
+                                        spaceBetween: 30,
+                                    },
+                                }}
+                                modules={[Pagination]}
+                                className=" px-[150px]"
+                            >
+
+                                <SwiperSlide className='py-10' >
+
+                                    {/* 1 */}
+
+                                    <div className="card sm:w-auto w-[280px] lg:mx-0 mx-auto xl:w-auto  rounded-[25px] 2xl:w-auto  bg-base-100 Box_shadow text-center bg_stander text-[#272223] ">
+                                        <h2 className=' text-[20px] uppercase mt-[30px] font-medium Medium'>Basic</h2>
+                                        <h1 className=' lg:text-[50px] uppercase mt-[23px] font-medium Medium'>$65.99</h1>
+                                        <p className=' text-[16px] uppercase mt-[24px] pb-[31px] font-bold Bold'>Yearly</p>
+
+                                        <hr className='borderBottom mb-[31px]' />
+
+
+                                        <div className='space-y-[17px] pb-[31px]   font-normal Normal text-lg'>
+                                            <h2 className='text-lg  font-medium Medium'>Perfect for Individual</h2>
+                                            <p>50 GB Cloud Storage</p>
+                                            <p>
+                                                Automated Server Backup
+                                            </p>
+                                            <p>24/7 Support</p>
+                                            <p>Customer Management</p>
+
+                                        </div>
+
+                                        <hr className='borderBottom mb-[31px]' />
+
+
+                                        <div className='mt-[30px] w-[188px] mx-auto py-4 px-[44px] ChosePlan'>
+                                            <button className=' text-[14px] text-white font-bold Bold'>Choose Plan</button>
+
+                                        </div>
+                                        <h1 className='text-[14px] font-medium Medium text-[#783FBE] underline text-center hover:text-white mt-[21px] mb-[30px]'>Get Your 30 Day Free Trail</h1>
+
+
+
 
                                     </div>
+                                </SwiperSlide>
+                                <SwiperSlide className='py-10'>
+                                    {/* 2 */}
 
-                                    <hr className='borderBottom mb-[31px]' />
 
 
-                                    <div className='mt-[30px] w-[188px] mx-auto py-4 px-[44px] ChosePlan'>
-                                        <button className=' text-[14px] text-white font-bold Bold'>Choose Plan</button>
+
+                                    <div className="card sm:w-auto w-[280px] lg:mx-0 mx-auto xl:w-auto bg_stander text-[#272223]  rounded-[25px] 2xl:w-auto  bg-base-100 Box_shadow text-center">
+                                        <h2 className=' text-[20px] uppercase mt-[30px] font-medium Medium'>Standard</h2>
+                                        <h1 className=' lg:text-[50px] uppercase mt-[23px] font-medium Medium'>$65.99</h1>
+                                        <p className=' text-[16px] uppercase mt-[24px] pb-[31px] font-bold Bold'>Yearly</p>
+
+                                        <hr className='borderBottom mb-[31px]' />
+
+
+                                        <div className='space-y-[17px] pb-[31px]   font-normal Normal text-lg'>
+                                            <h2 className='text-lg font-medium Medium'>Perfect for Individual</h2>
+                                            <p>50 GB Cloud Storage</p>
+                                            <p>
+                                                Automated Server Backup
+                                            </p>
+                                            <p>24/7 Support</p>
+                                            <p>Customer Management</p>
+
+                                        </div>
+
+                                        <hr className='borderBottom mb-[31px]' />
+
+
+                                        <div className='mt-[30px]  w-[188px mx-auto py-4 px-[44px] ChosePlan'>
+                                            <button className='text-[14px] text-white font-bold Bold'>Choose Plan</button>
+
+                                        </div>
+                                        <h1 className='text-[14px] font-medium Medium text-[#783FBE] underline text-center hover:text-white mt-[21px] mb-[30px]'>Get Your 30 Day Free Trail</h1>
+
+
+
 
                                     </div>
-                                    <h1 className='text-[14px] font-medium Medium text-[#783FBE] underline text-center hover:text-white mt-[21px] mb-[30px]'>Get Your 30 Day Free Trail</h1>
+                                </SwiperSlide>
+
+
+                                <SwiperSlide className='py-10'>
+                                    {/* 3 */}
+
+                                    <div className="card sm:w-auto w-[280px] lg:mx-0 mx-auto xl:w-auto bg_stander  text-[#272223]  rounded-[25px] 2xl:w-auto   bg-base-100 Box_shadow text-center">
+                                        <h2 className=' text-[20px] uppercase mt-[30px] font-medium Medium'>Premium</h2>
+                                        <h1 className=' lg:text-[50px] uppercase mt-[23px] font-medium Medium'>$65.99</h1>
+                                        <p className=' text-[16px] uppercase mt-[24px] pb-[31px] font-bold Bold'>Yearly</p>
+
+                                        <hr className='borderBottom mb-[31px] bg-white' />
+
+
+                                        <div className='space-y-[17px] pb-[31px]   font-normal Normal text-lg'>
+                                            <h2 className='text-lg  font-medium Medium'>Perfect for Individual</h2>
+                                            <p>50 GB Cloud Storage</p>
+                                            <p>
+                                                Automated Server Backup
+                                            </p>
+                                            <p>24/7 Support</p>
+                                            <p>Customer Management</p>
+
+                                        </div>
+
+                                        <hr className='borderBottom mb-[31px]' />
 
 
 
 
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide className='py-10'>
-                                {/* 2 */}
+                                        <div className='mt-[30px]  w-[188px mx-auto py-4 px-[44px] ChosePlan'>
+                                            <button className='text-[14px] text-white font-bold Bold'>Choose Plan</button>
+
+                                        </div>
+                                        <h1 className='text-[14px] font-medium Medium  text-[#783FBE] hover:text-white underline text-center mt-[21px] mb-[30px]'>Get Your 30 Day Free Trail</h1>
 
 
 
-
-                                <div className="card sm:w-auto w-[280px] lg:mx-0 mx-auto xl:w-auto bg_stander text-[#272223]  rounded-[25px] 2xl:w-auto  bg-base-100 Box_shadow text-center">
-                                    <h2 className=' text-[20px] uppercase mt-[30px] font-medium Medium'>Standard</h2>
-                                    <h1 className=' lg:text-[50px] uppercase mt-[23px] font-medium Medium'>$65.99</h1>
-                                    <p className=' text-[16px] uppercase mt-[24px] pb-[31px] font-bold Bold'>Yearly</p>
-
-                                    <hr className='borderBottom mb-[31px]' />
-
-
-                                    <div className='space-y-[17px] pb-[31px]   font-normal Normal text-lg'>
-                                        <h2 className='text-lg font-medium Medium'>Perfect for Individual</h2>
-                                        <p>50 GB Cloud Storage</p>
-                                        <p>
-                                            Automated Server Backup
-                                        </p>
-                                        <p>24/7 Support</p>
-                                        <p>Customer Management</p>
 
                                     </div>
-
-                                    <hr className='borderBottom mb-[31px]' />
-
-
-                                    <div className='mt-[30px]  w-[188px mx-auto py-4 px-[44px] ChosePlan'>
-                                        <button className='text-[14px] text-white font-bold Bold'>Choose Plan</button>
-
-                                    </div>
-                                    <h1 className='text-[14px] font-medium Medium text-[#783FBE] underline text-center hover:text-white mt-[21px] mb-[30px]'>Get Your 30 Day Free Trail</h1>
+                                </SwiperSlide>
 
 
 
-
-                                </div>
-                            </SwiperSlide>
-
-
-                            <SwiperSlide className='py-10'>
-                                {/* 3 */}
-
-                                <div className="card sm:w-auto w-[280px] lg:mx-0 mx-auto xl:w-auto bg_stander  text-[#272223]  rounded-[25px] 2xl:w-auto   bg-base-100 Box_shadow text-center">
-                                    <h2 className=' text-[20px] uppercase mt-[30px] font-medium Medium'>Premium</h2>
-                                    <h1 className=' lg:text-[50px] uppercase mt-[23px] font-medium Medium'>$65.99</h1>
-                                    <p className=' text-[16px] uppercase mt-[24px] pb-[31px] font-bold Bold'>Yearly</p>
-
-                                    <hr className='borderBottom mb-[31px] bg-white' />
-
-
-                                    <div className='space-y-[17px] pb-[31px]   font-normal Normal text-lg'>
-                                        <h2 className='text-lg  font-medium Medium'>Perfect for Individual</h2>
-                                        <p>50 GB Cloud Storage</p>
-                                        <p>
-                                            Automated Server Backup
-                                        </p>
-                                        <p>24/7 Support</p>
-                                        <p>Customer Management</p>
-
-                                    </div>
-
-                                    <hr className='borderBottom mb-[31px]' />
-
-
-
-
-                                    <div className='mt-[30px]  w-[188px mx-auto py-4 px-[44px] ChosePlan'>
-                                        <button className='text-[14px] text-white font-bold Bold'>Choose Plan</button>
-
-                                    </div>
-                                    <h1 className='text-[14px] font-medium Medium  text-[#783FBE] hover:text-white underline text-center mt-[21px] mb-[30px]'>Get Your 30 Day Free Trail</h1>
-
-
-
-
-                                </div>
-                            </SwiperSlide>
-                         
-
-
-                        </Swiper>
+                            </Swiper>
+                        </div>
 
 
 
 
 
 
-                      
+
                     </div>
                 </section>
 
 
                 <section className='containerWidth mx-auto'>
-                    <div data-aos="zoom-in" data-aos-delay="50"
-                        data-of
-                        data-aos-duration="1000"
+                    <div data-aos="fade-up"
+                        data-aos-delay="50"
+                        data-aos-duration="1500"
                         data-aos-easing="ease-in-out"
                         data-aos-mirror="true"
                         data-aos-once="true"
@@ -811,92 +805,104 @@ const Home = () => {
 
                 <footer className='bg_Footer xl:h-[850px] 2xl:h-[1100px] '>
 
-                    <div data-aos="fade-up" data-aos-delay="50"
-
-                        data-aos-duration="1000"
+                    <div data-aos="fade-up"
+                        data-aos-delay="50"
+                        data-aos-duration="1500"
                         data-aos-easing="ease-in-out"
                         data-aos-mirror="true"
                         data-aos-once="true"
                         data-aos-offset="200"
+                    >
+                        <div
 
-                        className='containerWidth  flex mx-auto justify-center pt-[50px] 2xl:mt-[400px] lg:pt-[286.82px]'>
-                        <div className='text-center'>
-                            <h1 className='text-white '><SectionTitle tittle={'Get Our Latest Newsletters'} /> </h1>
+                            className='containerWidth  flex mx-auto justify-center pt-[50px] 2xl:mt-[400px] lg:pt-[286.82px]'>
+                            <div className='text-center'>
+                                <h1 className='text-white '><SectionTitle tittle={'Get Our Latest Newsletters'} /> </h1>
 
-                            <p className='text-white font-normal Normal text-lg mt-[15px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <p className='text-white font-normal Normal text-lg mt-[15px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-                            <div className='lg:flex justify-center items-center px-5 lg:px-0 mt-[37px] gap-[15px]'>
-                                <div className=''>
-                                    <input type="text" className='lg:w-[450px]  w-full h-[63px]   rounded-[8px]  px-5 py-5' placeholder='Type your email' />
+                                <div className='lg:flex justify-center items-center px-5 lg:px-0 mt-[37px] gap-[15px]'>
+                                    <div className=''>
+                                        <input type="text" className='lg:w-[450px]  w-full h-[63px]   rounded-[8px]  px-5 py-5' placeholder='Type your email' />
+
+                                    </div>
+
+                                    <div className=' py-[22px] mt-5  lg:mt-0 px-[50px] ChosePlan'>
+                                        <button type='submit' className='text-[14px]  text-white font-bold uppercase Bold'>Subscribe</button>
+
+                                    </div>
 
                                 </div>
+                            </div>
+                        </div>
 
-                                <div className=' py-[22px] mt-5  lg:mt-0 px-[50px] ChosePlan'>
-                                    <button type='submit' className='text-[14px]  text-white font-bold uppercase Bold'>Subscribe</button>
 
+                        <div data-aos="fade-up" data-aos-delay="50"
+
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-mirror="true"
+                            data-aos-once="true"
+                            data-aos-offset="200"
+                            className='containerWidth justify-center mx-auto px-5   mt-[50px] lg:mt-[98px] lg:flex 2xl:gap-[300px] lg:gap-[90px]  items-center'>
+
+                            {/* 1 */}
+                            <div className=''>
+                                <h1 className='Bold font-bold lg:text-start text-center text-[25px]  text-[#FFF] '>Xpeed Cloud</h1>
+
+                                <div className='flex justify-center lg:justify-start gap-[105px] lg:gap-5 mt-[30px]'>
+                                    <img src={tw} className='w-[22.23px]' alt="" />
+                                    <img src={instra} className='w-[17.663px]' alt="" />
+                                    <img src={fb} className='w-[8.208px]' alt="" />
                                 </div>
 
-                            </div>
-                        </div>
-                    </div>
 
 
-                    <div data-aos="fade-up" data-aos-delay="50"
 
-                        data-aos-duration="1000"
-                        data-aos-easing="ease-in-out"
-                        data-aos-mirror="true"
-                        data-aos-once="true"
-                        data-aos-offset="200"
-                        className='containerWidth mx-auto px-5 lg:px-[80px] xl:px-[150px] mt-[50px] lg:mt-[98px] lg:flex 2xl:gap-[300px] lg:gap-[90px] items-center'>
-
-                        {/* 1 */}
-                        <div className=''>
-                            <h1 className='Bold font-bold lg:text-start text-center text-[25px]  lg:text-[30px] text-[#FFF]'>Xpeed Cloud</h1>
-                            <div className='flex justify-center lg:justify-start gap-[105px] lg:gap-5 mt-[30px]'>
-                                <img src={tw} className='w-[22.23px]' alt="" />
-                                <img src={instra} className='w-[17.663px]' alt="" />
-                                <img src={fb} className='w-[8.208px]' alt="" />
                             </div>
 
+                            {/* 2 */}
 
-
-                        </div>
-
-                        {/* 2 */}
-
-                        <div className='text-white text-[14px] lg:text-lg  font-normal Normal lg:mt-0 mt-[30px]   lg:flex gap-[25px]'>
-                            <p className='  inline'>Privacy Policy</p>
-                            <p className='ml-5 lg:ml-0 inline'>
-                                Terms and Conditions
-                            </p>
-                            <p className='lg:text-start text-center mt-4 lg:mt-0'>Affiliate Center</p>
-                        </div>
-
-                        {/* 3 */}
-
-                        <div>
-                            <h1 className='Medium mt-[30px] lg:mt-0 lg:text-start text-center font-medium text-[20px] lg:text-[30px] text-[#FFF]'>Payment Methods</h1>
-                            <div className='flex justify-center lg:justify-start mt-[34px] gap-[38px] lg:gap-5 lg:mt-[6px]'>
-                                <img src={bank1} className='w-[58px]' alt="" />
-                                <img src={bank2} className='w-[50px]' alt="" />
-                                <img src={bank3} className='w-[50px]' alt="" />
+                            <div className='text-white text-[14px] lg:text-lg  font-normal Normal lg:mt-0 mt-[30px]   lg:flex gap-[25px]'>
+                                <p className='  inline'>Privacy Policy</p>
+                                <p className='ml-5 lg:ml-0 inline'>
+                                    Terms and Conditions
+                                </p>
+                                <p className='lg:text-start text-center mt-4 lg:mt-0'>Affiliate Center</p>
                             </div>
 
+                            {/* 3 */}
 
+                            <div>
+                                <h1 className='Medium mt-[30px] lg:mt-0 lg:text-start text-center font-medium text-[20px] lg:text-[30px] text-[#FFF]'>Payment Methods</h1>
+
+                                <div className='flex justify-center lg:justify-start mt-[34px] gap-[38px] lg:gap-5 lg:mt-[6px]'>
+                                    <img src={bank1} className='w-[58px]' alt="" />
+                                    <img src={bank2} className='w-[50px]' alt="" />
+                                    <img src={bank3} className='w-[50px]' alt="" />
+                                </div>
+
+
+
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+                        <div className='containerWidth px-5 xl:px-[150px] mx-auto lg:w-[1440px] 2xl:w-auto'>
+                            <hr className='mt-[42px] lg:mt-[53px] mb-[31px]  borderFooter' />
 
                         </div>
-                    </div>
+                        <div
+                            className=' px-5 mx-auto xl:w-[1440px]   text-white  text-[14px]   lg:text-[16px] font-normal Normal '>
+                            <p className=' mx-auto text-center  lg:pb-[20px] pb-[51px] xl:pb-[40px]  flex justify-center'>© Copyright © 2020 Design by Xpeed Page</p>
+                        </div>
 
-                    <div className='containerWidth px-5 xl:px-[150px] mx-auto lg:w-[1440px] 2xl:w-auto'>
-                        <hr className='mt-[42px] lg:mt-[53px] mb-[31px]  borderFooter' />
-
                     </div>
-                    <div
-                        className=' px-5 mx-auto xl:w-[1440px]   text-white  text-[14px]   lg:text-[16px] font-normal Normal '>
-                        <p className=' mx-auto text-center  lg:pb-[20px] pb-[51px] xl:pb-[40px]  flex justify-center'>© Copyright © 2020 Design by Xpeed Page</p>
-                    </div>
-
                 </footer>
 
 
