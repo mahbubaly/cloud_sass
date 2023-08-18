@@ -34,8 +34,8 @@ const Home = () => {
     return (
         <>
 
-            <Container>
-                <header className='bg_Banner h-[213.281px]     lg:h-[700px] sm:h-auto  xl:h-[959.412px]  2xl:h-[1200px]'>
+            <Container >
+                <header className='bg_Banner h-[213.281px]    lg:h-[700px]   xl:h-[959.412px]  2xl:h-[1200px]'>
                     <nav className=' lg:w-auto containerWidth xl:px-[150px] sm:px-[60px] lg:px-[75px]  mx-auto pt-[35px] flex justify-between items-center'>
 
                         <div>
@@ -239,7 +239,7 @@ const Home = () => {
 
 
 
-                    <div className='containerWidth mx-auto mt-[50px] grid grid-cols-1 items-center lg:mb-[189px] lg:grid-cols-2 gap-[61px] lg:pr-[150px]'>
+                    <div className='containerWidth mx-auto mt-[50px] grid grid-cols-1 items-center lg:mb-[189px] lg:grid-cols-2 gap-[61px] lg:pr-[80px] xl:pr-[150px]'>
 
                         <div data-aos="fade-right" data-aos-delay="50"
                             data-of
@@ -248,7 +248,7 @@ const Home = () => {
                             data-aos-mirror="true"
                             data-aos-once="true"
                             data-aos-offset="200" >
-                            <img src={img02} className='lg:w-[676px] 2xl:w-auto 2xl:-ml-[140px] lg:-ml-[100px]' alt="" />
+                            <img src={img02} className='xl:w-[676px]  2xl:w-auto 2xl:-ml-[140px] lg:-ml-[70px] xl:-ml-[100px]' alt="" />
 
                         </div>
                         <div data-aos="fade-left" data-aos-delay="50"
@@ -257,24 +257,24 @@ const Home = () => {
                             data-aos-easing="ease-in-out"
                             data-aos-mirror="true"
                             data-aos-once="true"
-                            data-aos-offset="200" className='2xl:w-auto lg:w-[498px]'>
+                            data-aos-offset="200" className='2xl:w-auto xl:w-[498px]'>
 
                             <div className='flex gap-[25px] items-start'>
-                                <h1 className='lg:text-[40px] font-semibold text-[#272223] SansPro -mt-2'>01</h1>
+                                <h1 className='lg:text-[40px] font-semibold SemiBold text-slate-200  xl:-mt-2'>01</h1>
                                 <div>
                                     <h2 className='text-primary text-[20px] font-medium Medium '>Best Performance</h2>
                                     <p className='text-lg Light font-light mt-[10px]'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
                                 </div>
                             </div>
                             <div className='flex gap-[25px] items-start my-[33px]'>
-                                <h1 className='lg:text-[40px] font-semibold text-[#272223] SansPro -mt-2'>02</h1>
+                                <h1 className='lg:text-[40px] font-semibold SemiBold text-slate-200 xl:-mt-2'>02</h1>
                                 <div>
                                     <h2 className='text-primary text-[20px] font-medium Medium '>High Speed Servers</h2>
                                     <p className='text-lg Light font-light mt-[10px]'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
                                 </div>
                             </div>
                             <div className='flex gap-[25px] items-start'>
-                                <h1 className='lg:text-[40px] font-semibold text-[#272223] SansPro -mt-2'>03</h1>
+                                <h1 className='lg:text-[40px] font-semibold SemiBold text-slate-200  xl:-mt-2'>03</h1>
                                 <div>
                                     <h2 className='text-primary text-[20px] font-medium Medium '>24/7 Support</h2>
                                     <p className='text-lg Light font-light mt-[10px]'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
@@ -298,7 +298,7 @@ const Home = () => {
                             data-aos-easing="ease-in-out"
                             data-aos-mirror="true"
                             data-aos-once="true"
-                            data-aos-offset="200" className='lg:pl-[150px]'>
+                            data-aos-offset="200" className='lg:pl-[80px] xl:pl-[150px]'>
                             <SectionTitle tittle={"How We Help Our Clients Measure Social"} />
 
                             <p className='text-lg Normal font-normal text-[#413F42] lg:mt-[25px]'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.</p>
@@ -356,10 +356,10 @@ const Home = () => {
                             data-aos-easing="ease-in-out"
                             data-aos-mirror="true"
                             data-aos-once="true"
-                            data-aos-offset="200" className='lg:pr-[150px]'>
+                            data-aos-offset="200" className='lg:pr-[80px] xl:pr-[150px]'>
                             <SectionTitle tittle={'Making A New Trend In Poster Printing'} />
 
-                            <p className='text-lg  mt-[25px] text-[#413F42] font-normal Normal'>
+                            <p className='text-lg lg:mt-3 xl:mt-[25px] text-[#413F42] font-normal Normal'>
                                 Chances are unless you are very lucky you will go thru many different relationships before you find your special someone. Finding your sole mate is like gambling. <br /> <br />
 
                                 During your life you will probably meet some people who seem like they may be the one, or that they are close, but still have the feeling that something else is missing. My advice is that if you are not happy, because something seems like it is missing, then it usually is not right the bus one day without ever knowing it.</p>
@@ -373,18 +373,18 @@ const Home = () => {
                 {/* Let’s Hear Our Happy Customer */}
 
 
-                <div className='containerWidth mx-auto'>
+                <section className='containerWidth mx-auto'>
                     <div className='' data-aos="fade-up" data-aos-delay="50"
                         data-of
                         data-aos-duration="1000"
                         data-aos-easing="ease-in-out"
                         data-aos-mirror="true"
                         data-aos-once="true"
-                        data-aos-offset="200" 
-                        
-                        >
-                            
-                        <h1 className='flex justify-center lg:mt-[182px] text-[#272223]'> <SectionTitle tittle={'Let’s Hear Our Happy Customer'} /></h1>
+                        data-aos-offset="200"
+
+                    >
+
+                        <h1 className='flex justify-center lg:mt-[100px] xl:mt-[182px] text-[#272223]'> <SectionTitle tittle={'Let’s Hear Our Happy Customer'} /></h1>
 
                         <p className='mx-auto text-center mt-[20px] lg:w-[563px] text-lg font-normal Normal'>
                             When it comes to choosing the right web hosting provider, we know how easy it is to get overwhelmed with the number.
@@ -403,10 +403,12 @@ const Home = () => {
                         data-aos-easing="ease-in-out"
                         data-aos-mirror="true"
                         data-aos-once="true"
-                        data-aos-offset="200" className='px-[205px] lg:mt-[50px] justify-center items-center grid lg:grid-cols-3 grid-cols-1 lg:gap-[50px]'>
+                        data-aos-offset="200" className='lg:px-[80px] xl:px-[205px] lg:mt-[50px] justify-center items-center grid lg:grid-cols-3 grid-cols-1 lg:gap-[20px] xl:gap-[50px]'>
+
+                        {/* 1 */}
 
 
-                        <div className="card lg:w-[310px] 2xl:w-auto  bg-base-100 Box_shadow hover:shadow-xl hover:shadow-slate-300">
+                        <div className="card  xl:w-[310px] 2xl:w-auto  bg-base-100 Box_shadow hover:shadow-xl hover:shadow-slate-300">
                             <div className='mt-[50px]  ml-[30px]'>
                                 <img src={quote} className='w-[46px] h-[36px] top-[50px] absolute  ' alt="BackUp" />
 
@@ -427,8 +429,8 @@ const Home = () => {
 
                             </div>
 
-                            <div className='pl-[40px] pr-[19px] pt-[33px] pb-[50px] flex lg:gap-[15px] 2xl:gap-[30px]'>
-                                <img src={oval} className='w-[50px] h-[50px]' alt="" />
+                            <div className='pl-[40px] pr-[19px] pt-[33px] pb-[50px] xl:flex lg:gap-[15px] 2xl:gap-[30px]'>
+                                <img src={oval} className='w-[50px] mx-auto xl:mx-0 xl:mb-0 lg:mb-2 h-[50px]' alt="" />
                                 <div>
                                     <h1 className='text-lg font-semibold SemiBold'>
                                         Tufayel Ahmed Nayef
@@ -442,7 +444,7 @@ const Home = () => {
 
                         {/* 2 */}
 
-                        <div className="card lg:mt-[50px] lg:w-[310px]  2xl:w-auto  bg-base-100 Box_shadow hover:shadow-xl hover:shadow-slate-300">
+                        <div className="card lg:mt-[50px] xl:w-[310px]  2xl:w-auto  bg-base-100 Box_shadow hover:shadow-xl hover:shadow-slate-300">
                             <div className='pt-[50px]  pl-[30px]'>
                                 <img src={quote} className='w-[46px] h-[36px] top-[50px] absolute  ' alt="BackUp" />
 
@@ -463,8 +465,8 @@ const Home = () => {
 
                             </div>
 
-                            <div className='pl-[40px] pr-[19px] pt-[33px] pb-[50px] flex lg:gap-[15px] 2xl:gap-[30px]'>
-                                <img src={oval2} className='w-[50px] h-[50px]' alt="" />
+                            <div className='pl-[40px] pr-[19px] pt-[33px] pb-[50px] xl:flex lg:gap-[15px] 2xl:gap-[30px]'>
+                                <img src={oval2} className='w-[50px] mx-auto xl:mx-0 xl:mb-0 lg:mb-2 h-[50px]' alt="" />
                                 <div>
                                     <h1 className='text-lg font-semibold SemiBold'>
                                         Tufayel Ahmed Nayef
@@ -475,7 +477,7 @@ const Home = () => {
                         </div>
 
                         {/* 3 */}
-                        <div className="card lg:w-[310px] 2xl:w-auto  bg-base-100 Box_shadow hover:shadow-xl hover:shadow-slate-300">
+                        <div className="card xl:w-[310px] 2xl:w-auto  bg-base-100 Box_shadow hover:shadow-xl hover:shadow-slate-300">
                             <div className='mt-[50px]  pl-[30px]'>
                                 <img src={quote} className='w-[46px] h-[36px] top-[50px] absolute  ' alt="BackUp" />
 
@@ -496,8 +498,8 @@ const Home = () => {
 
                             </div>
 
-                            <div className='pl-[40px] pr-[19px] pt-[33px] pb-[50px] flex lg:gap-[15px] 2xl:gap-[30px]'>
-                                <img src={oval3} className='w-[50px] h-[50px]' alt="" />
+                            <div className='pl-[40px] pr-[19px] pt-[33px] pb-[50px] xl:flex lg:gap-[15px] 2xl:gap-[30px]'>
+                                <img src={oval3} className='w-[50px] mx-auto xl:mx-0 xl:mb-0 lg:mb-2 h-[50px]' alt="" />
                                 <div>
                                     <h1 className='text-lg font-semibold SemiBold'>
                                         Tufayel Ahmed Nayef
@@ -512,7 +514,7 @@ const Home = () => {
                     </div>
 
 
-                </div>
+                </section>
 
                 {/* Pricing Plans */}
                 <section>
@@ -543,9 +545,9 @@ const Home = () => {
                             data-aos-easing="ease-in-out"
                             data-aos-mirror="true"
                             data-aos-once="true"
-                            data-aos-offset="200" className='grid lg:mx-[225px] lg:mt-[50px] grid-cols-1 gap-[30px] lg:grid-cols-3'>
+                            data-aos-offset="200" className='grid lg:px-[80px] xl:px-[225px] lg:mt-[50px] grid-cols-1 gap-[30px] lg:grid-cols-3'>
                             {/* 1 */}
-                            <div className="card lg:w-[310px]  rounded-[25px] 2xl:w-auto  bg-base-100 Box_shadow text-center bg_stander text-[#272223] ">
+                            <div className="card xl:w-[310px]  rounded-[25px] 2xl:w-auto  bg-base-100 Box_shadow text-center bg_stander text-[#272223] ">
                                 <h2 className=' text-[20px] uppercase mt-[30px] font-medium Medium'>Basic</h2>
                                 <h1 className=' lg:text-[50px] uppercase mt-[23px] font-medium Medium'>$65.99</h1>
                                 <p className=' text-[16px] uppercase mt-[24px] pb-[31px] font-bold Bold'>Yearly</p>
@@ -583,7 +585,7 @@ const Home = () => {
 
 
 
-                            <div className="card lg:w-[310px] bg_stander text-[#272223]  rounded-[25px] 2xl:w-auto  bg-base-100 Box_shadow text-center">
+                            <div className="card xl:w-[310px] bg_stander text-[#272223]  rounded-[25px] 2xl:w-auto  bg-base-100 Box_shadow text-center">
                                 <h2 className=' text-[20px] uppercase mt-[30px] font-medium Medium'>Standard</h2>
                                 <h1 className=' lg:text-[50px] uppercase mt-[23px] font-medium Medium'>$65.99</h1>
                                 <p className=' text-[16px] uppercase mt-[24px] pb-[31px] font-bold Bold'>Yearly</p>
@@ -618,7 +620,7 @@ const Home = () => {
 
                             {/* 3 */}
 
-                            <div className="card lg:w-[310px] bg_stander  text-[#272223]  rounded-[25px] 2xl:w-auto   bg-base-100 Box_shadow text-center">
+                            <div className="card xl:w-[310px] bg_stander  text-[#272223]  rounded-[25px] 2xl:w-auto   bg-base-100 Box_shadow text-center">
                                 <h2 className=' text-[20px] uppercase mt-[30px] font-medium Medium'>Premium</h2>
                                 <h1 className=' lg:text-[50px] uppercase mt-[23px] font-medium Medium'>$65.99</h1>
                                 <p className=' text-[16px] uppercase mt-[24px] pb-[31px] font-bold Bold'>Yearly</p>
@@ -694,17 +696,20 @@ const Home = () => {
 
 
 
-                <footer className='bg_Footer xl:h-[817.32px] 2xl:h-[1100px] '>
+                <footer className='bg_Footer lg: xl:h-[817.32px] 2xl:h-[1100px] '>
 
-                    <div  data-aos="fade-up" data-aos-delay="50"
+                    <div data-aos="fade-up" data-aos-delay="50"
 
                         data-aos-duration="1000"
                         data-aos-easing="ease-in-out"
                         data-aos-mirror="true"
                         data-aos-once="true"
-                        data-aos-offset="200" className='containerWidth  flex mx-auto justify-center pt-[286.82px]'>
+                        data-aos-offset="200" 
+
+                        className='containerWidth  flex mx-auto justify-center 2xl:pt-[400px] lg:pt-[286.82px]'>
                         <div className='text-center'>
                             <h1 className='text-white '><SectionTitle tittle={'Get Our Latest Newsletters'} /> </h1>
+
                             <p className='text-white font-normal Normal text-lg mt-[15px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
                             <div className='flex justify-center items-center mt-[37px] gap-[15px]'>
@@ -729,9 +734,10 @@ const Home = () => {
                         data-aos-easing="ease-in-out"
                         data-aos-mirror="true"
                         data-aos-once="true"
-                        data-aos-offset="200" className='containerWidth mx-auto lg:px-[150px] mt-[98px] flex 2xl:gap-[300px] lg:gap-[90px] items-center'>
+                        data-aos-offset="200" 
+                        className='containerWidth mx-auto lg:px-[80px] xl:px-[150px] mt-[98px] flex 2xl:gap-[300px] lg:gap-[90px] items-center'>
                         <div>
-                            <h1 className='Bold font-bold lg:text-[30px] text-[#FFF]'>Xpeed Cloud</h1>
+                            <h1 className='Bold font-bold xl:text-[30px] text-[#FFF]'>Xpeed Cloud</h1>
                             <div className='flex gap-5 mt-[30px]'>
                                 <img src={tw} className='w-[22.23px]' alt="" />
                                 <img src={instra} className='w-[17.663px]' alt="" />
@@ -762,24 +768,13 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <div data-aos="fade-up" data-aos-delay="50"
-
-                        data-aos-duration="1000"
-                        data-aos-easing="ease-in-out"
-                        data-aos-mirror="true"
-                        data-aos-once="true"
-                        data-aos-offset="200" className='containerWidth  px-[150px] mx-auto lg:w-[1440px] 2xl:w-auto'>
+                    <div className='containerWidth  px-[150px] mx-auto lg:w-[1440px] 2xl:w-auto'>
                         <hr className='mt-[53px] mb-[31px]  borderFooter' />
 
                     </div>
-                    <div data-aos="fade-up" data-aos-delay="50"
-
-                        data-aos-duration="1000"
-                        data-aos-easing="ease-in-out"
-                        data-aos-mirror="true"
-                        data-aos-once="true"
-                        data-aos-offset="200" className='containerWidth mx-auto text-white text-center 2xl:mr-40 lg:mr-24 text-[16px] font-normal Normal pb-[40px]'>
-                        <p>© Copyright © 2020 Design by Xpeed Page</p>
+                    <div
+                        className=' text-center mx-auto text-white   2xl:mr-40 lg:mr-24 text-[16px] font-normal Normal pb-[40px]'>
+                        <p className='containerWidth mx-auto text-center'>© Copyright © 2020 Design by Xpeed Page</p>
                     </div>
 
                 </footer>
