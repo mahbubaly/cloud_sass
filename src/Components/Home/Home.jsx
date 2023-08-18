@@ -864,8 +864,8 @@ const Home = () => {
                             {/* 2 */}
 
                             <div className='text-white text-[14px] lg:text-lg  font-normal Normal lg:mt-0 mt-[30px]   lg:flex gap-[25px]'>
-                                <p className='  inline'>Privacy Policy</p>
-                                <p className='ml-5 lg:ml-0 inline'>
+                                <p className=' ml-7 lg:ml-0 inline'>Privacy Policy</p>
+                                <p className='ml-7 lg:ml-0  inline'>
                                     Terms and Conditions
                                 </p>
                                 <p className='lg:text-start text-center mt-4 lg:mt-0'>Affiliate Center</p>
