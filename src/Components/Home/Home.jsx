@@ -563,6 +563,72 @@ const Home = () => {
                                     </div>
                                 </div>
                             </SwiperSlide>
+                            <SwiperSlide className='py-10'>
+                                <div className="card sm:w-auto w-[260px] mx-auto xl:w-auto   bg-base-100 Box_shadow hover:shadow-xl hover:shadow-slate-300">
+                                    <div className='mt-[50px]  ml-[30px]'>
+                                        <img src={quote} className='w-[46px] h-[36px] top-[50px] absolute  ' alt="BackUp" />
+
+
+                                    </div>
+                                    <div className="relative">
+
+                                        <p className='lg:pl-[40px] pl-[25px] pr-[25px] lg:pr-[30px] text-[14px] lg:text-lg font-normal Normal   mt-4 '>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more..</p>
+
+                                    </div>
+
+                                    <div className=' pl-[40px] mt-[19px] flex gap-2'>
+                                        <img src={star} className='w-[12px] h-[11px]' alt="" />
+                                        <img src={star} className='w-[12px] h-[11px]' alt="" />
+                                        <img src={star} className='w-[12px] h-[11px]' alt="" />
+                                        <img src={star} className='w-[12px] h-[11px]' alt="" />
+                                        <img src={star} className='w-[12px] h-[11px]' alt="" />
+
+                                    </div>
+
+                                    <div className='lg:pl-[40px] pl-[25px] pr-[19px] pt-[33px] pb-[50px] flex gap-[15px] 2xl:gap-[30px]'>
+                                        <img src={oval3} className='w-[50px]   h-[50px]' alt="" />
+                                        <div>
+                                            <h1 className='text-[14px] lg:text-lg font-semibold SemiBold'>
+                                                Tufayel Ahmed Nayef
+                                            </h1>
+                                            <p className='text-[14px] font-normal Normal text-[#272223]'>Visual Designer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide className='py-10'>
+                                <div className="card sm:w-auto w-[260px] mx-auto xl:w-auto   bg-base-100 Box_shadow hover:shadow-xl hover:shadow-slate-300">
+                                    <div className='mt-[50px]  ml-[30px]'>
+                                        <img src={quote} className='w-[46px] h-[36px] top-[50px] absolute  ' alt="BackUp" />
+
+
+                                    </div>
+                                    <div className="relative">
+
+                                        <p className='lg:pl-[40px] pl-[25px] pr-[25px] lg:pr-[30px] text-[14px] lg:text-lg font-normal Normal   mt-4 '>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more..</p>
+
+                                    </div>
+
+                                    <div className=' pl-[40px] mt-[19px] flex gap-2'>
+                                        <img src={star} className='w-[12px] h-[11px]' alt="" />
+                                        <img src={star} className='w-[12px] h-[11px]' alt="" />
+                                        <img src={star} className='w-[12px] h-[11px]' alt="" />
+                                        <img src={star} className='w-[12px] h-[11px]' alt="" />
+                                        <img src={star} className='w-[12px] h-[11px]' alt="" />
+
+                                    </div>
+
+                                    <div className='lg:pl-[40px] pl-[25px] pr-[19px] pt-[33px] pb-[50px] flex gap-[15px] 2xl:gap-[30px]'>
+                                        <img src={oval3} className='w-[50px]   h-[50px]' alt="" />
+                                        <div>
+                                            <h1 className='text-[14px] lg:text-lg font-semibold SemiBold'>
+                                                Tufayel Ahmed Nayef
+                                            </h1>
+                                            <p className='text-[14px] font-normal Normal text-[#272223]'>Visual Designer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
 
 
                         </Swiper>
