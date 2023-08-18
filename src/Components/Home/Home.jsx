@@ -64,7 +64,7 @@ const Home = () => {
                         <div
                             data-aos="fade-up" data-aos-delay="50"
 
-                            data-aos-duration="1500"
+                           data-aos-duration="1000"
                             data-aos-easing="ease-in-out"
                             data-aos-mirror="true"
                             data-aos-once="true"
@@ -108,7 +108,7 @@ const Home = () => {
 
                     <div data-aos="fade-up" data-aos-delay="50"
 
-                        data-aos-duration="1500"
+                       data-aos-duration="1000"
                         data-aos-easing="ease-in-out"
                         data-aos-mirror="true"
                         data-aos-once="true"
@@ -128,7 +128,7 @@ const Home = () => {
 
                         <div data-aos="fade-up" data-aos-delay="50"
 
-                            data-aos-duration="1500"
+                           data-aos-duration="1000"
                             data-aos-easing="ease-in-out"
                             data-aos-mirror="true"
                             data-aos-once="true"
@@ -216,7 +216,7 @@ const Home = () => {
                 <section>
                     <div data-aos="fade-up" data-aos-delay="50"
 
-                        data-aos-duration="1500"
+                       data-aos-duration="1000"
                         data-aos-easing="ease-in-out"
                         data-aos-mirror="true"
                         data-aos-once="true"
@@ -376,7 +376,7 @@ const Home = () => {
                     <div className='mt-[30px] lg:mt-0 px-5 lg:px-0'
                         data-aos="fade-up"
                         data-aos-delay="50"
-                        data-aos-duration="1500"
+                       data-aos-duration="1000"
                         data-aos-easing="ease-in-out"
                         data-aos-mirror="true"
                         data-aos-once="true"
@@ -401,7 +401,7 @@ const Home = () => {
                     <div className='lg:px-[150px]'
                         data-aos="fade-up"
                         data-aos-delay="50"
-                        data-aos-duration="1500"
+                       data-aos-duration="1000"
                         data-aos-easing="ease-in-out"
                         data-aos-mirror="true"
                         data-aos-once="true"
@@ -586,7 +586,7 @@ const Home = () => {
 
                         <div data-aos="fade-up"
                             data-aos-delay="50"
-                            data-aos-duration="1500"
+                           data-aos-duration="1000"
                             data-aos-easing="ease-in-out"
                             data-aos-mirror="true"
                             data-aos-once="true"
@@ -605,7 +605,7 @@ const Home = () => {
                         <div className='lg:px-[150px]'
                             data-aos="fade-up"
                             data-aos-delay="50"
-                            data-aos-duration="1500"
+                           data-aos-duration="1000"
                             data-aos-easing="ease-in-out"
                             data-aos-mirror="true"
                             data-aos-once="true"
@@ -770,7 +770,7 @@ const Home = () => {
                 <section className='containerWidth mx-auto'>
                     <div data-aos="fade-up"
                         data-aos-delay="50"
-                        data-aos-duration="1500"
+                       data-aos-duration="1000"
                         data-aos-easing="ease-in-out"
                         data-aos-mirror="true"
                         data-aos-once="true"
@@ -803,11 +803,11 @@ const Home = () => {
 
 
 
-                <footer className='bg_Footer xl:h-[850px] 2xl:h-[1100px] '>
+                <footer className='bg_Footer lg:h-[827px]'>
 
                     <div data-aos="fade-up"
                         data-aos-delay="50"
-                        data-aos-duration="1500"
+                       data-aos-duration="1000"
                         data-aos-easing="ease-in-out"
                         data-aos-mirror="true"
                         data-aos-once="true"
@@ -815,8 +815,8 @@ const Home = () => {
                     >
                         <div
 
-                            className='containerWidth  flex mx-auto justify-center pt-[50px] 2xl:mt-[400px] lg:pt-[286.82px]'>
-                            <div className='text-center'>
+                            className='containerWidth  flex mx-auto justify-center pt-[50px] 2xl:pt-[600px] lg:pt-[286.82px]'>
+                            <div className='text-center '>
                                 <h1 className='text-white '><SectionTitle tittle={'Get Our Latest Newsletters'} /> </h1>
 
                                 <p className='text-white font-normal Normal text-lg mt-[15px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -844,7 +844,7 @@ const Home = () => {
                             data-aos-mirror="true"
                             data-aos-once="true"
                             data-aos-offset="200"
-                            className='containerWidth justify-center mx-auto px-5   mt-[50px] lg:mt-[98px] lg:flex 2xl:gap-[300px] lg:gap-[90px]  items-center'>
+                            className='containerWidth  justify-center mx-auto px-5   mt-[50px] lg:mt-[98px] lg:flex 2xl:gap-[300px] lg:gap-[90px]  items-center'>
 
                             {/* 1 */}
                             <div className=''>
@@ -897,9 +897,12 @@ const Home = () => {
                             <hr className='mt-[42px] lg:mt-[53px] mb-[31px]  borderFooter' />
 
                         </div>
+
+
+
                         <div
                             className=' px-5 mx-auto xl:w-[1440px]   text-white  text-[14px]   lg:text-[16px] font-normal Normal '>
-                            <p className=' mx-auto text-center  lg:pb-[20px] pb-[51px] xl:pb-[40px]  flex justify-center'>© Copyright © 2020 Design by Xpeed Page</p>
+                            <p className=' mx-auto text-center  lg:pb-[20px]   flex justify-center'>© Copyright © 2020 Design by Xpeed Page</p>
                         </div>
 
                     </div>
