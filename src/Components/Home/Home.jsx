@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Container from '../../Shared/Container';
 import '../../Shared/Style.css';
 import BackUp from '../../assets/Image/backUp.png'
@@ -35,10 +35,16 @@ import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import { Link } from 'react-router-dom';
 
+import { FaBars, FaTimes } from 'react-icons/fa';
+
+
+
+
 
 
 
 const Home = () => {
+    const [open, setOpen] = useState(false);
     return (
         <>
 
@@ -54,6 +60,9 @@ const Home = () => {
                             </Link>
 
                         </div>
+
+                        {/* Laptop desktop */}
+
                         <div className='lg:flex hidden   gap-[30px]'>
                             <h1 className='Normal font-normal text-white hover:text-[#28d5eb] text-[16px]'>Solution</h1>
                             <h1 className='Normal font-normal text-white hover:text-[#28d5eb] text-[16px]'>Why choose us</h1>
@@ -61,6 +70,22 @@ const Home = () => {
                             <h1 className='Normal font-normal text-white hover:text-[#28d5eb] text-[16px]'>Pricing</h1>
 
                         </div>
+
+                        {/* Mobile */}
+
+                        <div className={`block lg:hidden   lg:col-span-3  absolute lg:static lg:w-auto top-0 left-0 overflow-hidden h-screen lg:h-auto duration-500 bg-gradient-to-r from-[#743CBD] to-[#AB67C3]   lg:bg-[transparent] lg:p-0 z-50 ${open ? "w-4/5 md:w-1/2 p-5" : "w-0"}`}>
+
+                            <ul className='flex items-center font-bold flex-col lg:flex-row gap-5'>
+
+                                <h1 className='Normal font-normal text-white hover:text-[#28d5eb] text-[16px]'>Solution</h1>
+                                <h1 className='Normal font-normal text-white hover:text-[#28d5eb] text-[16px]'>Why choose us</h1>
+                                <h1 className='Normal font-normal text-white hover:text-[#28d5eb] text-[16px]'>Features</h1>
+                                <h1 className='Normal font-normal text-white hover:text-[#28d5eb] text-[16px]'>Pricing</h1>
+
+                            </ul>
+                        </div>
+
+                        <button onClick={() => setOpen(!open)} className='block lg:hidden'>{open ? <FaTimes className='w-[32px] h-[32px] text-[#FFFFFF]' /> : <FaBars className='w-[32px] h-[32px] text-[#FFFFFF]'  />}</button>
 
 
                     </nav>
