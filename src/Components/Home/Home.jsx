@@ -33,6 +33,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
+import { Link } from 'react-router-dom';
 
 
 
@@ -47,14 +48,17 @@ const Home = () => {
                     <nav className=' lg:w-auto containerWidth xl:px-[150px] sm:px-[60px] px-5 lg:px-[75px]  mx-auto pt-[24px] sm:pt-[20px] lg:pt-[35px] flex justify-between items-center'>
 
                         <div>
-                            <h1 className='Bold font-bold text-[22px] lg:text-[30px] text-[#FFF]'>Xpeed Cloud</h1>
+                            <Link to='/'>
+                                <h1 className='Bold font-bold text-[22px] lg:text-[30px] text-[#FFF]'>Xpeed Cloud</h1>
+
+                            </Link>
 
                         </div>
                         <div className='lg:flex hidden   gap-[30px]'>
-                            <h1 className='Normal font-normal text-white hover:text-slate-300 text-[16px]'>Solution</h1>
-                            <h1 className='Normal font-normal text-white hover:text-slate-300 text-[16px]'>Why choose us</h1>
-                            <h1 className='Normal font-normal text-white hover:text-slate-300 text-[16px]'>Features</h1>
-                            <h1 className='Normal font-normal text-white hover:text-slate-300 text-[16px]'>Pricing</h1>
+                            <h1 className='Normal font-normal text-white hover:text-[#28d5eb] text-[16px]'>Solution</h1>
+                            <h1 className='Normal font-normal text-white hover:text-[#28d5eb] text-[16px]'>Why choose us</h1>
+                            <h1 className='Normal font-normal text-white hover:text-[#28d5eb] text-[16px]'>Features</h1>
+                            <h1 className='Normal font-normal text-white hover:text-[#28d5eb] text-[16px]'>Pricing</h1>
 
                         </div>
 
@@ -64,7 +68,7 @@ const Home = () => {
                         <div
                             data-aos="fade-up" data-aos-delay="50"
 
-                           data-aos-duration="1000"
+                            data-aos-duration="800"
                             data-aos-easing="ease-in-out"
                             data-aos-mirror="true"
                             data-aos-once="true"
@@ -88,7 +92,7 @@ const Home = () => {
                                 </div>
                                 <div className='lg:px-0 px-[36px] lg:mb-0 lg:block flex justify-center '>
                                     <button
-                                        className='lg:w-[200px] sm:w-full w-[194px] h-[49px] mt-5 sm:mt-0 lg:h-[60px] hover:bg-gradient-to-r from-[#25DEEE] to-[#38A6E0] hover:border-none border-[0.5px] border-white rounded-[8px]  py-[15px] lg:py-5 text-[#fff] text-[16px] Bold  '>
+                                        className='lg:w-[200px] sm:w-full w-[194px] h-[49px] mt-5 lg:mt-0  lg:h-[60px] hover:bg-gradient-to-r from-[#25DEEE] to-[#38A6E0] hover:border-none border-[0.5px] border-white rounded-[8px]  py-[15px] lg:py-5 text-[#fff] text-[16px] Bold  '>
                                         Watch Trailer
                                     </button>
                                 </div>
@@ -108,7 +112,7 @@ const Home = () => {
 
                     <div data-aos="fade-up" data-aos-delay="50"
 
-                       data-aos-duration="1000"
+                        data-aos-duration="800"
                         data-aos-easing="ease-in-out"
                         data-aos-mirror="true"
                         data-aos-once="true"
@@ -128,15 +132,18 @@ const Home = () => {
 
                         <div data-aos="fade-up" data-aos-delay="50"
 
-                           data-aos-duration="1000"
+                            data-aos-duration="800"
                             data-aos-easing="ease-in-out"
                             data-aos-mirror="true"
                             data-aos-once="true"
                             data-aos-offset="200" className='grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 lg:gap-4'>
+
+
+                            {/* 1 */}
                             <div>
 
-                                <div className="card w-[273px] sm:w-auto xl:w-[273px] 2xl:w-auto  mx-auto lg:mx-0 hover:shadow-lg hover:shadow-slate-300  bg-base-100 Box_shadow">
-                                    <div className='xl:pt-[50px] pt-[30px] xl:px-[86px] lg:pt-[30px] lg:px-[50px]'>
+                                <div className="card w-[273px] sm:w-auto  2xl:w-auto  mx-auto lg:mx-0 hover:shadow-lg hover:shadow-slate-300  bg-base-100 Box_shadow">
+                                    <div className='xl:pt-[50px] pt-[30px] 2xl:px-[86px] lg:pt-[30px] lg:px-[50px]'>
                                         <img src={BackUp} className='w-[100px] h-[100px]  mx-auto  ' alt="BackUp" />
 
 
@@ -155,8 +162,8 @@ const Home = () => {
 
                             <div>
 
-                                <div className="card hover:shadow-lg hover:shadow-slate-300 w-[273px] sm:w-auto mx-auto lg:mx-0  xl:w-[273px] 2xl:w-auto  bg-base-100 Box_shadow">
-                                    <div className='xl:pt-[50px] pt-[30px] xl:px-[86px] lg:pt-[30px] lg:px-[50px]'>
+                                <div className="card hover:shadow-lg hover:shadow-slate-300 w-[273px] sm:w-auto mx-auto lg:mx-0   2xl:w-auto  bg-base-100 Box_shadow">
+                                    <div className='xl:pt-[50px] pt-[30px] 2xl:px-[86px] lg:pt-[30px] lg:px-[50px]'>
                                         <img src={cloud} className='w-[100px] h-[100px]  mx-auto' alt="BackUp" />
 
 
@@ -173,8 +180,8 @@ const Home = () => {
                             {/* 3 */}
                             <div>
 
-                                <div className="card hover:shadow-lg hover:shadow-slate-300 w-[273px] sm:w-auto mx-auto lg:mx-0  xl:w-[273px] 2xl:w-auto  bg-base-100 Box_shadow">
-                                    <div className='xl:pt-[50px] pt-[30px] xl:px-[86px] lg:pt-[30px] lg:px-[50px]'>
+                                <div className="card hover:shadow-lg hover:shadow-slate-300 w-[273px] sm:w-auto mx-auto lg:mx-0   2xl:w-auto  bg-base-100 Box_shadow">
+                                    <div className='xl:pt-[50px] pt-[30px] 2xl:px-[86px] lg:pt-[30px] lg:px-[50px]'>
                                         <img src={finance} className='w-[100px] h-[100px] mx-auto  ' alt="BackUp" />
 
 
@@ -191,8 +198,8 @@ const Home = () => {
                             {/* 4 */}
                             <div>
 
-                                <div className="card hover:shadow-lg hover:shadow-slate-300 w-[273px] sm:w-auto mx-auto lg:mx-0 xl:w-[273px] 2xl:w-auto  bg-base-100 Box_shadow">
-                                    <div className='xl:pt-[50px] pt-[30px] xl:px-[86px] lg:pt-[30px] lg:px-[50px]'>
+                                <div className="card hover:shadow-lg hover:shadow-slate-300 w-[273px] sm:w-auto mx-auto lg:mx-0  2xl:w-auto  bg-base-100 Box_shadow">
+                                    <div className='xl:pt-[50px] pt-[30px] 2xl:px-[86px] lg:pt-[30px] lg:px-[50px]'>
                                         <img src={EasyPay} className='w-[100px] h-[100px] mx-auto ' alt="BackUp" />
 
 
@@ -216,7 +223,7 @@ const Home = () => {
                 <section>
                     <div data-aos="fade-up" data-aos-delay="50"
 
-                       data-aos-duration="1000"
+                        data-aos-duration="800"
                         data-aos-easing="ease-in-out"
                         data-aos-mirror="true"
                         data-aos-once="true"
@@ -237,7 +244,7 @@ const Home = () => {
 
                         <div data-aos="fade-right" data-aos-delay="50"
 
-                            data-aos-duration="1000"
+                            data-aos-duration="800"
                             data-aos-easing="ease-in-out"
                             data-aos-mirror="true"
                             data-aos-once="true"
@@ -247,7 +254,7 @@ const Home = () => {
                         </div>
                         <div data-aos="fade-left" data-aos-delay="50"
 
-                            data-aos-duration="1000"
+                            data-aos-duration="800"
                             data-aos-easing="ease-in-out"
                             data-aos-mirror="true"
                             data-aos-once="true"
@@ -288,7 +295,7 @@ const Home = () => {
                     <div className='containerWidth lg:mt-0 mt-[50px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-[20px]'>
                         <div data-aos="fade-right" data-aos-delay="50"
 
-                            data-aos-duration="1000"
+                            data-aos-duration="800"
                             data-aos-easing="ease-in-out"
                             data-aos-mirror="true"
                             data-aos-once="true"
@@ -315,7 +322,7 @@ const Home = () => {
 
                         <div className='mt-[30px] lg:mt-0' data-aos="fade-left" data-aos-delay="50"
 
-                            data-aos-duration="1000"
+                            data-aos-duration="800"
                             data-aos-easing="ease-in-out"
                             data-aos-mirror="true"
                             data-aos-once="true"
@@ -337,7 +344,7 @@ const Home = () => {
 
                         <div data-aos="fade-right" data-aos-delay="50"
 
-                            data-aos-duration="1000"
+                            data-aos-duration="800"
                             data-aos-easing="ease-in-out"
                             data-aos-mirror="true"
                             data-aos-once="true"
@@ -347,7 +354,7 @@ const Home = () => {
                         </div>
                         <div data-aos="fade-left" data-aos-delay="50"
 
-                            data-aos-duration="1000"
+                            data-aos-duration="800"
                             data-aos-easing="ease-in-out"
                             data-aos-mirror="true"
                             data-aos-once="true"
@@ -376,7 +383,7 @@ const Home = () => {
                     <div className='mt-[30px] lg:mt-0 px-5 lg:px-0'
                         data-aos="fade-up"
                         data-aos-delay="50"
-                       data-aos-duration="1000"
+                        data-aos-duration="800"
                         data-aos-easing="ease-in-out"
                         data-aos-mirror="true"
                         data-aos-once="true"
@@ -384,7 +391,7 @@ const Home = () => {
 
                     >
 
-                        <h1 className='flex justify-center lg:mt-[100px] xl:mt-[182px] text-[#272223]'> <SectionTitle tittle={'Let’s Hear Our Happy Customer'} /></h1>
+                        <h1 className='flex justify-center lg:text-start text-center lg:mt-[100px] xl:mt-[182px] text-[#272223]'> <SectionTitle tittle={'Let’s Hear Our Happy Customer'} /></h1>
 
                         <p className='mx-auto text-center mt-[15px] lg:mt-5 lg:w-[563px] text-lg font-normal Normal'>
                             When it comes to choosing the right web hosting provider, we know how easy it is to get overwhelmed with the number.
@@ -401,7 +408,7 @@ const Home = () => {
                     <div className='lg:px-[150px]'
                         data-aos="fade-up"
                         data-aos-delay="50"
-                       data-aos-duration="1000"
+                        data-aos-duration="800"
                         data-aos-easing="ease-in-out"
                         data-aos-mirror="true"
                         data-aos-once="true"
@@ -422,6 +429,10 @@ const Home = () => {
                                     spaceBetween: 40,
                                 },
                                 1024: {
+                                    slidesPerView: 2,
+                                    spaceBetween: 50,
+                                },
+                                1280: {
                                     slidesPerView: 3,
                                     spaceBetween: 50,
                                 },
@@ -646,13 +657,14 @@ const Home = () => {
                 </section>
 
                 {/* Pricing Plans */}
+
                 <section>
 
-                    <div className='containerWidth mx-auto'>
+                    <div className='containerWidth mx-auto lg:px-0 px-5'>
 
                         <div data-aos="fade-up"
                             data-aos-delay="50"
-                           data-aos-duration="1000"
+                            data-aos-duration="800"
                             data-aos-easing="ease-in-out"
                             data-aos-mirror="true"
                             data-aos-once="true"
@@ -671,7 +683,7 @@ const Home = () => {
                         <div className='lg:px-[150px]'
                             data-aos="fade-up"
                             data-aos-delay="50"
-                           data-aos-duration="1000"
+                            data-aos-duration="800"
                             data-aos-easing="ease-in-out"
                             data-aos-mirror="true"
                             data-aos-once="true"
@@ -707,7 +719,7 @@ const Home = () => {
 
                                     <div className="card sm:w-auto w-[280px] lg:mx-0 mx-auto xl:w-auto  rounded-[25px] 2xl:w-auto  bg-base-100 Box_shadow text-center bg_stander text-[#272223] ">
                                         <h2 className=' text-[20px] uppercase mt-[30px] font-medium Medium'>Basic</h2>
-                                        <h1 className=' lg:text-[50px] uppercase mt-[23px] font-medium Medium'>$65.99</h1>
+                                        <h1 className=' text-[50px] uppercase mt-[23px] font-medium Medium'>$65.99</h1>
                                         <p className=' text-[16px] uppercase mt-[24px] pb-[31px] font-bold Bold'>Yearly</p>
 
                                         <hr className='borderBottom mb-[31px]' />
@@ -746,7 +758,7 @@ const Home = () => {
 
                                     <div className="card sm:w-auto w-[280px] lg:mx-0 mx-auto xl:w-auto bg_stander text-[#272223]  rounded-[25px] 2xl:w-auto  bg-base-100 Box_shadow text-center">
                                         <h2 className=' text-[20px] uppercase mt-[30px] font-medium Medium'>Standard</h2>
-                                        <h1 className=' lg:text-[50px] uppercase mt-[23px] font-medium Medium'>$65.99</h1>
+                                        <h1 className=' text-[50px] uppercase mt-[23px] font-medium Medium'>$65.99</h1>
                                         <p className=' text-[16px] uppercase mt-[24px] pb-[31px] font-bold Bold'>Yearly</p>
 
                                         <hr className='borderBottom mb-[31px]' />
@@ -784,7 +796,7 @@ const Home = () => {
 
                                     <div className="card sm:w-auto w-[280px] lg:mx-0 mx-auto xl:w-auto bg_stander  text-[#272223]  rounded-[25px] 2xl:w-auto   bg-base-100 Box_shadow text-center">
                                         <h2 className=' text-[20px] uppercase mt-[30px] font-medium Medium'>Premium</h2>
-                                        <h1 className=' lg:text-[50px] uppercase mt-[23px] font-medium Medium'>$65.99</h1>
+                                        <h1 className=' text-[50px] uppercase mt-[23px] font-medium Medium'>$65.99</h1>
                                         <p className=' text-[16px] uppercase mt-[24px] pb-[31px] font-bold Bold'>Yearly</p>
 
                                         <hr className='borderBottom mb-[31px] bg-white' />
@@ -833,10 +845,13 @@ const Home = () => {
                 </section>
 
 
+                {/* Awarded & Trusted By */}
+
+
                 <section className='containerWidth mx-auto'>
                     <div data-aos="fade-up"
                         data-aos-delay="50"
-                       data-aos-duration="1000"
+                        data-aos-duration="800"
                         data-aos-easing="ease-in-out"
                         data-aos-mirror="true"
                         data-aos-once="true"
@@ -848,7 +863,7 @@ const Home = () => {
 
                     <Marquee speed={80}>
 
-                        <div className='px-[150px] mb-[150px]  flex gap-[69px] 2xl:justify-center mt-[50px]'>
+                        <div className='px-[150px] mb-[50px] lg:mb-[150px]  flex gap-[69px] 2xl:justify-center mt-[50px]'>
                             <img src={codeLab} className='w-[171px]' alt="" />
                             <img src={niraState} className='w-[223px]' alt="" />
                             <img src={live} className='w-[113px]' alt="" />
@@ -869,11 +884,11 @@ const Home = () => {
 
 
 
-                <footer className='bg_Footer lg:h-[827px]'>
+                <footer className='bg_Footer 2xl:h-[950px] pb-0 lg:pb-[40px]'>
 
                     <div data-aos="fade-up"
                         data-aos-delay="50"
-                       data-aos-duration="1000"
+                        data-aos-duration="800"
                         data-aos-easing="ease-in-out"
                         data-aos-mirror="true"
                         data-aos-once="true"
@@ -881,7 +896,7 @@ const Home = () => {
                     >
                         <div
 
-                            className='containerWidth  flex mx-auto justify-center pt-[50px] 2xl:pt-[600px] lg:pt-[286.82px]'>
+                            className='containerWidth  flex mx-auto justify-center pt-[50px] 2xl:pt-[300px] lg:pt-[286.82px]'>
                             <div className='text-center '>
                                 <h1 className='text-white '><SectionTitle tittle={'Get Our Latest Newsletters'} /> </h1>
 
@@ -905,7 +920,7 @@ const Home = () => {
 
                         <div data-aos="fade-up" data-aos-delay="50"
 
-                            data-aos-duration="1000"
+                            data-aos-duration="800"
                             data-aos-easing="ease-in-out"
                             data-aos-mirror="true"
                             data-aos-once="true"
@@ -929,12 +944,12 @@ const Home = () => {
 
                             {/* 2 */}
 
-                            <div className='text-white text-[14px] lg:text-lg  font-normal Normal lg:mt-0 mt-[30px]   lg:flex gap-[25px]'>
-                                <p className=' ml-7 lg:ml-0 inline'>Privacy Policy</p>
-                                <p className='ml-7 lg:ml-0  inline'>
+                            <div className='text-white text-[14px] lg:text-lg  font-normal Normal lg:mt-0 mt-[30px]   sm:flex gap-[25px]'>
+                                <p className=' ml-7 sm:ml-20 sm:block inline'>Privacy Policy</p>
+                                <p className='ml-5 MarginLeft sm:ml-0 sm:block inline'>
                                     Terms and Conditions
                                 </p>
-                                <p className='lg:text-start text-center mt-4 lg:mt-0'>Affiliate Center</p>
+                                <p className='lg:text-start sm:ml-[100px] text-center sm:text-start  mt-4 sm:mt-0'>Affiliate Center</p>
                             </div>
 
                             {/* 3 */}
@@ -967,8 +982,8 @@ const Home = () => {
 
 
                         <div
-                            className=' px-5 mx-auto xl:w-[1440px]   text-white  text-[14px]   lg:text-[16px] font-normal Normal '>
-                            <p className=' mx-auto text-center  lg:pb-[20px]   flex justify-center'>© Copyright © 2020 Design by Xpeed Page</p>
+                            className=' px-5      '>
+                            <p className=' text-center text-white  text-[14px]   lg:text-[16px] font-normal Normal  pb-[51px] lg:pb-0   flex justify-center'>© Copyright © 2020 Design by Xpeed Page</p>
                         </div>
 
                     </div>

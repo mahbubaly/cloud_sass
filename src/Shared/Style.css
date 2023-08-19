@@ -60,7 +60,7 @@
 
 /* mobile  */
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .bg_Banner {
         background-image: url(../assets/Image/mobile.png);
         background-position: center;
@@ -83,6 +83,31 @@
     
     }
 
+    
+
+
+    
+
+
+
+}
+
+@media (min-width: 425px) {
+    .MarginLeft{
+        margin-left: 90px;
+    }
+
+
+}
+
+
+
+
+@media (max-width: 1280px) {
+    .containerWidth {
+        width: 1280;
+        
+    }
 
 
 }
@@ -118,15 +143,62 @@
     .containerWidth {
         width: 1920px;
 
+
     }
 
     .bg_Banner {
-        height: 1440px;
+        height: 1150px;
 
     }
 
     .bg_Footer {
-        height: 1400px;
+        height:1150px;
+        padding-top: 300px;
+        
+
+
+    }
+
+}
+
+
+@media (min-width: 2560px) {
+    .containerWidth {
+        width: 1920px;
+
+
+    }
+
+    .bg_Banner {
+        height:1450px;
+
+    }
+
+    .bg_Footer {
+        height:1450px;
+        padding-top: 600px;
+        
+
+
+    }
+
+}
+@media (min-width: 4000px) {
+    .containerWidth {
+        width: 1920px;
+
+
+    }
+
+    .bg_Banner {
+        height:2200px;
+
+    }
+
+    .bg_Footer {
+        height:2250px;
+        padding-top: 900px;
+        
 
 
     }
@@ -154,13 +226,13 @@
 
 .borderBottom {
     border-bottom: 1px solid #FaFaFa;
-    opacity: 0.08;
+    opacity: 60%;
 
 
 }
 
 .borderFooter {
-    /* border-bottom: 1px solid #E8EBF0; */
+    
     stroke-width: 1px;
     stroke: #FFF;
     opacity: 0.1475;
@@ -184,6 +256,8 @@
     color: white;
 
 }
+
+
 
 .input::placeholder {
     border: 1px solid #3498db;
