@@ -144,7 +144,7 @@ const Home = () => {
                         data-aos-offset="200"
                         className='  lg:mt-0 mt-[50px] containerWidth mx-auto lg:w-[563px] text-center'>
                         <h1 className='text-[#321C3C] text-[25px] lg:text-[35px] xl:text-[48px] Normal'>Our Solution</h1>
-                        <p className='text-[#413F42] xl:w-[563px] mx-0 lg:mx-auto lg:px-0 px-5 text-lg Light font-light mt-5 '>When it comes to choosing the right web hosting provider, we know how easy it is to get overwhelmed with the number.
+                        <p className='text-[#413F42] lg:w-[563px] mx-0 lg:mx-auto lg:px-0 px-5 text-lg Light font-light mt-5 '>When it comes to choosing the right web hosting provider, we know how easy it is to get overwhelmed with the number.
 
                         </p>
 
